@@ -1,0 +1,54 @@
+{%- style -%}
+  #shopify-section-{{ section.id }} .quickshop-product-card .horizontal-product-card__figure {
+    width: 35%;
+    min-width: 5.75rem !important;
+    max-width: 12.5rem !important;
+  }
+  #shopify-section-{{ section.id }} .quickshop-product-card {
+    align-items: center !important;
+  }
+{%- endstyle -%}
+
+<complementary-products class="product-recommendations" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit=2&intent=complementary">
+  {%- if recommendations.performed and recommendations.products_count > 0 -%}
+    <div class="container flex flex-col gap-20 section-spacing container--md">
+      {%- if section.settings.title != blank -%}
+        <div class="prose {% if recommendations.products_count > 1 %}text-center{% else %}text-left{% endif %}">
+          {{ section.settings.title }}
+        </div>
+      {%- endif -%}
+
+      <div class="grid grid-flow-row grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-24">
+        {%- for product in recommendations.products -%}
+          {%- render 'product-card-quick-shop', product: product, wishlist: true -%}
+        {%- endfor -%}
+      </div>
+    </div>
+  {%- endif -%}
+</complementary-products>
+
+{% schema %}
+{
+  "name": "Complementary Products",
+  "class": "shopify-section--complementary-products",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Complete The Look",
+      "info": "This section renders complementary products assigned within the complementary products metafield or the [Shopify Search & Discovery app](https://admin.shopify.com/store/avara-boutique/apps/search-and-discovery/product-recommendations)."
+    },
+    {
+      "type": "richtext",
+      "id": "title",
+      "label": "Title"
+    }
+  ],
+  "presets": [
+    {
+      "category": "Product",
+      "name": "Complementary Products"
+    }
+  ]
+}
+{% endschema %}

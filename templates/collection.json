@@ -1,0 +1,56 @@
+{
+  "sections": {
+    "collection-banner-avara": {
+      "type": "collection-banner-avara",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Avara_PLP_fallback.jpg",
+        "background": "#f7f4f2",
+        "text_color": "#052c4c",
+        "show_image_mobile": true
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "custom_css": [
+        ".banana-qty-sentence {display: none;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d8f16f17-06ef-46e8-80f1-45a63f469a1f",
+        "hide_product_information": false,
+        "products_per_page": 36,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": false,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "sidebar",
+        "quick_links_menu": "driver-filter-price",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": false,
+        "open_filters_by_default": false,
+        "open_filters_by_default_mobile": false,
+        "load_more": true
+      }
+    },
+    "collection_seo_text_Frgdx6": {
+      "type": "collection-seo-text",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false,
+        "heading": "{{ collection.metafields.driver.collection_seo_headline.value }}",
+        "content": "{{ collection.metafields.custom.custom_description.value }}"
+      }
+    }
+  },
+  "order": [
+    "collection-banner-avara",
+    "main",
+    "collection_seo_text_Frgdx6"
+  ]
+}

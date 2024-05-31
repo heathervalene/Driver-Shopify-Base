@@ -1,0 +1,32 @@
+/* ACCOUNT */
+.customer-account-overview {
+  grid-gap: 2.5rem 3rem;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.customer-order {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 3rem;
+}
+.customer-order .order-summary__body tr {
+  border-block-width: 1px;
+}
+.customer-order .order-summary__footer td {
+  border-block-width: 0;
+}
+@media screen and (min-width: 700px) {
+  .order-summary .line-item-info {
+      min-width: max-content;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .customer-address-list {
+      --addresses-per-row: 2;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .customer-address-list {
+      --addresses-per-row: 3;
+  }
+}

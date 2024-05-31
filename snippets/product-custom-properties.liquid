@@ -1,0 +1,37 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+CUSTOM PRODUCT PROPERTIES 
+----------------------------------------------------------------------------------------------------------------------
+
+This component renders a merchant-controlled line-item property.  Normally, line-item properties are used to capture 
+customizations or personalizations made by the customer, but in this case, we're using it to capture a merchant-controlled
+field that adds some text to the line item based on tag.  The tag is added to the product in the Shopify admin, and the
+tag text is entered in the theme settings as Custom Product Text by Tag.  If the tag is present on the product, the tag-text 
+is added as an item property and displayed on the line item in the cart and checkout.
+
+We're using line-item properties for this to seamlessly pass this text to the order and checkout pages, and through to the
+packing slip that the customer receives.
+
+********************************************
+Supported variables
+********************************************
+
+* product: the product (required)
+
+Example:
+  {%- render 'product-custom-properties', product: product -%}
+
+{% endcomment -%}
+
+{%- capture product_form_id -%}product-form-{{ product.id }}-{{ section.id }}{%- endcapture -%}
+
+{%- if product.tags contains settings.custom_keyword -%}
+  {%- liquid 
+    assign name = 'properties[Special]'
+    render 'input', type: 'hidden', name: name, form: product_form_id, value: settings.custom_keyword
+  -%}
+  <span 
+    class="hidden text-xs uppercase property-Special text-cerise">
+    {{ settings.custom_keyword }}
+  </span>
+{%- endif -%}

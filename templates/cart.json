@@ -1,0 +1,72 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "settings": {
+        "color_scheme": "scheme-d8f16f17-06ef-46e8-80f1-45a63f469a1f",
+        "show_cart_note": true,
+        "show_order_weight": false,
+        "show_shipping_text": true,
+        "show_accelerated_buttons": false,
+        "show_shipping_estimator": false,
+        "cross_sell_products": [
+          "apres-sweater",
+          "scots-sweater",
+          "abby-earrings-green"
+        ],
+        "cross_sell_title": "Complete with",
+        "cross_sell_stack_products": false
+      }
+    },
+    "custom_liquid_bMgmCm": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".section-spacing {padding-block-start: 0; padding-block-end: 2rem;}",
+        "@media screen and (max-width: 699px) {.container {display: none; }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d8f16f17-06ef-46e8-80f1-45a63f469a1f",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"container container--sm\"><hr class=\"my-6\"><\/div>",
+        "text_alignment": "center"
+      }
+    },
+    "1714496874cd14bb4b": {
+      "type": "apps",
+      "blocks": {
+        "wishlist_plus_sfl_block_kC6q7F": {
+          "type": "shopify:\/\/apps\/wishlist-plus\/blocks\/sfl-block\/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
+          "settings": {
+            "swym-sfl-list-heading": "Saved for later",
+            "swym-sfl-move-all-to-cart-color": "#ffffff",
+            "swym-sfl-add-to-cart-btn-color": "#1c1c1c",
+            "swym-sfl-move-all-to-cart-text-color": "#1c1c1c",
+            "swym-sfl-add-to-cart-btn-text": "ADD TO BAG",
+            "swym-sfl-move-all-to-cart-text": "MOVE ALL TO CART",
+            "swym-sfl-cart-view": "Grid"
+          }
+        }
+      },
+      "block_order": [
+        "wishlist_plus_sfl_block_kC6q7F"
+      ],
+      "custom_css": [
+        ".color-scheme {padding-bottom: 4rem;}",
+        "@media screen and (max-width: 699px) {.container {margin-inline: 0; } .swym-sfl-grid-body {display: flex; gap: 2rem; scrollbar-width: none; overscroll-behavior-x: contain; overflow: auto hidden; width: 100%; justify-content: flex-start; flex-wrap: nowrap; flex-direction: row; padding-inline: 2rem; } .swym-sfl-grid-body .swym-sfl-list-product-item {width: 250px; }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d8f16f17-06ef-46e8-80f1-45a63f469a1f",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_bMgmCm",
+    "1714496874cd14bb4b"
+  ]
+}

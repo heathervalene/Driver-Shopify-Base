@@ -1,0 +1,367 @@
+@import '@splidejs/splide/css';
+@import './sections/index.css';
+@import './components/index.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Firework App */
+:root {
+  --fw-player-header-font-family: orpheuspro;
+  --fw-player-background: #ffffff;
+  --fw-player-shop-background: #ffffff;
+  --fw-product-name-font-color: #1c1c1c;
+  --fw-product-price-font-color: #1c1c1c;
+}
+
+/* Adobe Fonts */
+.orpheus-regular {
+  font-family: orpheuspro, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+.orpheus-italic {
+  font-family: orpheuspro, serif;
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Global Styles */
+
+.header-search::part(content) {
+  max-height: calc(100vh - var(--header-height, 0px) - var(--announcement-bar-height, 0px)) !important;
+}
+
+.pagination__link[aria-current="page"] {
+  box-shadow: 0 1px 0 0 !important;
+}
+
+.pagination {
+  margin-top: 3rem !important;
+}
+
+.splide__track--nav>.splide__list>.splide__slide {
+  border: 0px;
+  cursor: inherit;
+}
+
+.splide__track--nav>.splide__list>.splide__slide.is-active {
+  border: 0px;
+}
+
+.splide__arrow {
+  background: transparent;
+}
+
+.content-over-media {
+  --content-over-media-gap: 3rem;
+}
+
+th {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.0625rem;
+  letter-spacing: 0.0625rem;
+  text-transform: capitalize;
+}
+
+@layer base {
+  h1, .h1, .prose :where(h1) {
+    @apply font-serif antialiased font-normal tracking-wide text-h1m lg:text-h1sm xxl:text-h1;
+  }
+  h2, .h2, .prose :where(h2) {
+    @apply font-serif antialiased font-normal text-h2m tracking-slight lg:text-h2;
+  }
+  .h2-mod {
+    @apply font-serif antialiased font-normal text-h3m tracking-slight lg:text-h2;
+  }
+  h3, .h3, .prose :where(h3) {
+    @apply font-serif antialiased font-normal text-h3m tracking-slight lg:text-h3;
+  }
+  .h3-mod {
+    @apply font-serif text-xl antialiased font-normal tracking-wide;
+  }
+  .countdown-h3 {
+    @apply font-sans text-2xl antialiased font-normal tracking-slight lg:text-h3;
+  }
+  h4, .h4, .prose :where(h4) {
+    @apply font-serif antialiased font-normal tracking-wide text-h3m lg:text-h4;
+  }
+  h5, .h5, .prose :where(h5) {
+    @apply font-sans text-xs antialiased font-normal tracking-widest uppercase;
+  }
+  h6, .h6, .prose :where(h6) {
+    @apply font-serif text-sm antialiased font-normal tracking-wide capitalize lg:text-nav;
+  }
+  body, .font-body {
+    @apply font-sans text-sm antialiased font-normal tracking-slight;
+  }
+  
+  input[type='number']::-webkit-outer-spin-button,
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number'] {
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance: textfield !important;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply relative flex items-center;
+  }
+  .nav-active {
+    @apply relative flex items-center;
+  }
+  .field__input {
+    @apply relative w-full h-6 pr-10 placeholder-transparent uppercase bg-transparent border-b rounded-none border-brand-primary-100 text-brand-primary-100;
+  }
+}
+
+@layer utilities {
+  .field__label {
+    @apply absolute left-0 hidden uppercase duration-200 ease-out -translate-y-1/2 transition-top top-1/2 text-brand-secondary-100;
+  }
+}
+
+/* CSS changes to Global Prestige Classes */
+
+.floating-label {
+  visibility: hidden;
+}
+
+.button, 
+.shopify-challenge__button, 
+.shopify-payment-button__button--unbranded,
+.timeline__nav>button {
+  border-width: 1px;
+  line-height: 1rem;
+  padding: 1rem 2.5rem;
+  font-weight: 400;
+  font-size: 0.75rem;
+  letter-spacing: 0.0625rem;
+  width: fit-content;
+  transition: background-size .45s cubic-bezier(.785,.135,.15,.86),background-position .45s step-end,color .25s cubic-bezier(.785,.135,.15,.86);
+}
+
+button:focus-visible {
+  outline: 0.75px solid theme(colors.black);
+}
+
+.button:hover, button:focus-visible:hover {
+  background: rgb(var(--button-background-hover, var(--button-outline-color), var(--button-border-color)));
+  color: rgb(var(--button-text-color-hover, var(--button-text-color)));
+  border: 1px solid rgb(var(--button-border-color-hover, var(--button-outline-color), var(--button-border-color), var(--button-background-hover)));
+}
+
+.circle-button { /* remove circle and shadow from slider arrows */
+  box-shadow: none;
+}
+
+:is(.input:focus, .textarea:focus, .select:focus-visible) {
+  border-color: theme(colors.black);
+  outline: none;
+  background: transparent;
+}
+
+/* PDP main buy button black when ATC enabled */
+.js-static-atc .buy-buttons button[type=submit]:not(:disabled) {
+  background: theme(colors.black);
+  color: white;
+}
+
+button[name="checkout"] {
+  background: theme(colors.black);
+  color: white;
+  line-height: 1;
+  width: 100%;
+}
+
+/* Klaviyo/Postscript Newsletter */
+button.kl-private-reset-css-Xuajs1 {
+  padding: 0 2.5rem !important;
+}
+
+/* Special Klaviyo / newsletter / account login button that fills in when email input is valid */
+button.special-submit {
+  cursor: pointer;
+  background: theme(colors.blush);
+  border: 1px solid theme(colors.blush);
+}
+
+div:has(input:invalid) ~ div > button.special-submit,
+div:has(input:invalid) ~ button.special-submit {
+  cursor: not-allowed;
+  background: transparent;
+  transition: colors 300ms ease-in-out;
+  border: 1px solid theme(colors.mimipink);
+}
+
+/* Klaviyo fix for special-submit button */
+button.kl-private-reset-css-Xuajs1,
+button.kl-private-reset-css-Xuajs1:hover,
+div:has(input:invalid) ~ div > div > button.kl-private-reset-css-Xuajs1:hover,
+div:has(input:invalid) ~ div > div > button.kl-private-reset-css-Xuajs1:focus {
+  cursor: not-allowed !important;
+  background: transparent !important;
+  transition: colors 300ms ease-in-out;
+  font-family: theme(fontFamily.serif) !important;
+  border: 1px solid theme(colors.mimipink) !important;
+}
+div:has(input:user-valid) ~ div > div > button.kl-private-reset-css-Xuajs1,
+div:has(input:user-valid) ~ div > div > button.kl-private-reset-css-Xuajs1:hover,
+div:has(input:user-valid) ~ div > div > button.kl-private-reset-css-Xuajs1:focus {
+  cursor: pointer !important;
+  background: theme(colors.blush) !important;
+  font-family: theme(fontFamily.serif) !important;
+  border: 1px solid theme(colors.blush) !important;
+}
+
+.input, .textarea, .select {
+  border-color: theme(colors.dun);
+}
+
+.accordion {
+  border-block-width: 0;
+}
+
+.border-inline-end {
+  border-inline-end-width: 1px;
+}
+
+.border-inline-start {
+  border-inline-start-width: 1px;
+}
+
+.social-media {
+  --social-media-icon-size: 1rem;
+  --social-media-list-gap: 1rem;
+}
+
+.social-media--list .social-media__item {
+  opacity: 1;
+  transition: color .2s;
+}
+
+.social-media--list .social-media__item:hover {
+  color: theme(colors.cerise);
+}
+
+.popover {
+  --popover-header-padding-block: 1.25rem;
+}
+
+.popover__value-list > *[aria-selected="true"], .popover__value-list > *:hover {
+  color: theme(colors.black);
+}
+
+.popover__value-list > * {
+  color: theme(colors.dun);
+}
+
+.price-list {
+  column-gap: .25rem;
+}
+
+.shopify-section--main-cart .empty-state {
+  margin-block: 5rem;
+}
+
+.press-item-image img {
+  object-fit: contain;
+  padding: 0.5rem;
+}
+
+/* Hide color option in quick shop products */
+quick-shop variant-picker details.accordion[product-option="Color"] {
+  display: none;
+}
+
+@media screen and (max-width: 699px) {
+  .drawer::part(content) { /* all drawers on Prestige should fill the screen on mobile */
+    max-width: 100%;
+  }
+  .page-dots {
+    --dot-size: 0.5rem;
+  }
+  .product-card__figure > .badge-list {
+    inset-block-start: .5rem;
+    inset-inline-start: .5rem;
+    bottom: .5rem;
+    top: auto;
+  }
+  .badge {
+    letter-spacing: 0.04688rem;
+    padding: 0.32rem;
+    font-size: 0.68rem;
+    font-weight: 400;
+    line-height: 1;
+  }
+}
+
+/* Instafeed */
+.instafeed-new-layout-container .instafeed-new-arrow {
+  visibility: hidden;
+}
+
+/* Instafeed code previously working, not working now because of app update
+@media screen and (max-width: 999px) {
+  .instafeed-new-layout-wrapper {
+    gap: 1.5rem;
+  }
+  .instafeed-new-layout-container {
+    width: 100% !important;
+    height: fit-content !important;
+    overflow-x: scroll !important;
+    scrollbar-width: none;
+  }
+  .instafeed-new-layout-item {
+    height: 300px !important;
+    width: 300px !important;
+  }
+  #insta-feed .instafeed-new-layout-item img, .instafeed-shopify .instafeed-new-layout-item img {
+    width: 100% !important;
+    height: 100% !important;
+  } 
+} */
+
+@media screen and (min-width: 700px) {
+  .content-over-media {
+    --content-over-media-gap: 3rem;
+  }
+  .product-card__figure > .badge-list {
+    inset-block-start: .75rem;
+    inset-inline-start: .75rem;
+    bottom: .75rem;
+    top: auto;
+  }
+  .badge {
+    letter-spacing: 0.04688rem;
+    padding: 0.4rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1;
+  }
+  button[name="checkout"] {
+    width: fit-content;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  :root {
+    --container-gutter: 3rem;
+    --section-vertical-spacing: 4rem;
+    --section-vertical-spacing-tight: 4rem;
+    --section-stack-gap: 6.5rem;
+    --section-stack-gap-tight: 3rem;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1700px) {
+  .product-list--carousel {
+    --product-list-default-column-gap: 2.5rem !important;
+  }
+}

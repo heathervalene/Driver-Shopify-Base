@@ -1,0 +1,93 @@
+<div class="flex flex-col items-start justify-center w-screen min-h-screen bg-white h-max lg:flex-row lg:bg-isabelline text-brand-primary-100">
+  
+  <div class="w-full h-full px-8 pt-16 pb-4 bg-white min-h-max lg:min-h-screen lg:bg-isabelline lg:w-1/3 lg:py-0 lg:px-12">
+    {%- render 'account-nav' -%}
+  </div>
+  
+  <div class="w-full h-full px-8 pt-4 pb-40 bg-white min-h-max lg:min-h-screen lg:w-2/3 lg:pb-12 lg:pt-[9vw] lg:px-20">
+    <div class="container container--lg">
+      {%- if customer.addresses_count == 0 -%}
+        <div class="empty-state">
+          <div class="prose">
+            <h1 class="h4">{{ 'customer.addresses.title' | t }}</h1>
+            <p>{{ 'customer.addresses.no_addresses' | t }}</p>
+            <button class="button" type="button" aria-controls="customer-address-new">{{ 'customer.addresses.add_address' | t }}</button>
+          </div>
+        </div>
+      {%- else -%}
+        <div class="gap-16 section-stack">
+          <div class="gap-6 v-stack justify-items-center">
+
+            <div class="text-center section-header">
+              <div class="prose">
+                <h1 class="h3">{{ 'customer.addresses.title' | t }}</h1>
+                <button class="button" type="button" aria-controls="customer-address-new">{{ 'customer.addresses.add_address' | t }}</button>
+              </div>
+            </div>
+          </div>
+
+          {%- paginate customer.addresses by 16 -%}
+            {%- if customer.addresses_count == 0 -%}
+              <div class="empty-state">
+                <p>{{ 'customer.addresses.no_addresses' | t }}</p>
+
+                {%- assign button_content = 'customer.addresses.add_address' | t -%}
+                {%- render 'button', content: button_content, aria_controls: 'customer-address-new' -%}
+              </div>
+            {%- else -%}
+              <div class="gap-8 v-stack sm:gap-12">
+                <div class="customer-address-list">
+                  {%- for address in customer.addresses -%}
+                    <div class="gap-6 v-stack sm:gap-8">
+                      {%- if address == customer.default_address -%}
+                        <p class="customer-account-category h6 text-subdued">{{ 'customer.addresses.default_address' | t }}</p>
+                      {%- else -%}
+                        <p class="customer-account-category h6 text-subdued">{{ 'customer.addresses.address_title' | t: position: forloop.index }}</p>
+                      {%- endif -%}
+
+                      <div class="gap-4 v-stack">
+                        {{- address | format_address -}}
+
+                        <div class="gap-4 h-stack">
+                          <button type="button" class="link" aria-controls="customer-address-{{ address.id }}">{{ 'customer.addresses.edit' | t }}</button>
+
+                          <form method="post" action="{{ address.url }}">
+                            <input type="hidden" name="_method" value="delete">
+                            <button type="submit" class="link" is="confirm-button" data-message="{{ 'customer.addresses.delete_confirm' | t | escape }}">{{ 'customer.addresses.delete' | t }}</button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  {%- endfor -%}
+                </div>
+
+                {%- render 'pagination', paginate: paginate -%}
+              </div>
+            {%- endif -%}
+          {%- endpaginate -%}
+        </div>
+      {%- endif -%}
+
+      {%- comment -%}
+      --------------------------------------------------------------------------------------------------------------------
+      GENERATE THE FORMS
+      --------------------------------------------------------------------------------------------------------------------
+      {%- endcomment -%}
+
+      {%- render 'address-form', address: customer.new_address -%}
+
+      {%- for address in customer.addresses -%}
+        {%- render 'address-form', address: address -%}
+      {%- endfor -%}
+    </div>
+  </div>
+  
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.main_customers_addresses.name",
+  "class": "shopify-section--main-customers-addresses",
+  "tag": "section"
+}
+{% endschema %}

@@ -1,0 +1,23 @@
+{%- comment -%}
+Avara Exclusive Badge
+- displays only on PDP, above the product title for Avara exclusive products 
+
+********************************************
+Supported variables
+********************************************
+
+* product: the product (required)
+
+Example:
+  {%- render 'badge-avara-exclusive', product: product -%}
+{%- endcomment -%}
+
+{%- if product.tags contains 'avara exclusive' 
+    or product.metafields.driver.filter_avara_exclusives == true  -%}
+
+  <span 
+    class="badge badge--custom{% if template contains 'product' %} lg:mb-2{% endif %}">
+    Avara Exclusive
+  </span>
+
+{%- endif -%}

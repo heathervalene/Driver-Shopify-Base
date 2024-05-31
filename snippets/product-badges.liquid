@@ -1,0 +1,34 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+PRODUCT VALUE PROPS / BADGES COMPONENT
+----------------------------------------------------------------------------------------------------------------------
+
+This component is used on product page to render the badges of a given product.
+
+{%- endcomment -%}
+
+<div class="flex flex-wrap gap-2">
+  {%- if product.tags contains 'influencerfav' or product.metafields.driver.product_badges.value contains 'Influencer Pick'  -%}
+    <span class="text-white badge bg-prussianblue">
+      Influencer Pick
+    </span>
+  {%- endif -%}
+  
+  {%- if product.tags contains 'best seller' or product.metafields.driver.product_badges.value contains 'Best Seller'  -%}
+    <span class="text-black badge bg-timberwolf">
+      Best Seller
+    </span>
+  {%- endif -%}
+  
+  {%- if product.tags contains 'emily pick' or product.metafields.driver.product_badges.value contains "Emily's Pick"  -%}
+    <span class="text-black badge bg-isabelline">
+      Emily's Pick
+    </span>
+  {%- endif -%}
+  
+  {%- if product.tags contains settings.custom_keyword  -%}
+    <span class="badge bg-mimipink text-prussianblue">
+      {{ settings.custom_keyword }}
+    </span>
+  {%- endif -%}
+</div>

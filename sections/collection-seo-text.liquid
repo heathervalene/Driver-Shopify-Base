@@ -1,0 +1,131 @@
+{%- style -%}
+  #shopify-section-{{ section.id }} text-reveal button {
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+  }
+  #shopify-section-{{ section.id }} .prose span {
+    display: inline;
+  }
+{%- endstyle -%}
+{%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
+
+  <div class="color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% unless section.settings.remove_vertical_spacing %}section-spacing{% endunless %} {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
+    <div class="container container--{{ section.settings.content_width }} px-3 py-2 lg:py-4">
+      <div class="prose text-{{ section.settings.text_position }}">
+
+        <h2 
+          class="h3 lg:h2">
+          {{ section.settings.heading | default: collection.title }}
+        </h2>
+
+        <div class="max-w-[53rem] mx-auto my-0 pt-4 lg:pt-3">
+          <text-reveal
+            class="rte"
+            truncate-value="32"
+            truncate-by="words"
+            cta-text="Read"
+            text="{{ section.settings.content | default: collection.description | escape }}"></text-reveal>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+{% schema %}
+{
+  "name": "Collection SEO Text",
+  "class": "shopify-section--rich-text",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "checkbox",
+      "id": "separate_section_with_border",
+      "label": "t:global.section.separate_section_with_border",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "content_width",
+      "label": "t:global.sizes.content_width",
+      "options": [
+        {
+          "value": "xs",
+          "label": "t:global.sizes.x_small"
+        },
+        {
+          "value": "sm",
+          "label": "t:global.sizes.small"
+        },
+        {
+          "value": "md",
+          "label": "t:global.sizes.medium"
+        },
+        {
+          "value": "lg",
+          "label": "t:global.sizes.large"
+        }
+      ],
+      "default": "sm"
+    },
+    {
+      "type": "select",
+      "id": "text_position",
+      "label": "t:global.position.content_position",
+      "options": [
+        {
+          "value": "start",
+          "label": "t:global.position.left"
+        },
+        {
+          "value": "center",
+          "label": "t:global.position.center"
+        },
+        {
+          "value": "end",
+          "label": "t:global.position.right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "checkbox",
+      "id": "remove_vertical_spacing",
+      "label": "t:global.spacing.remove_vertical_spacing",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Default Content",
+      "info": "This section will use the collection SEO metafields first.  The collection title and collection description will be used as a fallback if the collection SEO metafields are blank, and no global content is entered below."
+    },
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "label": "Heading"
+    },
+    {
+      "type": "liquid",
+      "id": "content",
+      "label": "t:global.text.content"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection SEO Text"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-not-found",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "link": "shopify:\/\/collections\/bestsellers"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

@@ -1,0 +1,79 @@
+{%- assign banner = product.metafields.driver.editorial_banner.value -%}
+{%- if banner != blank -%}
+
+  {%- comment -%}
+  ------------------------------------------------------------------------------------------------------------------------
+  CSS
+  ------------------------------------------------------------------------------------------------------------------------
+  {%- endcomment -%}
+
+  <style>
+    #shopify-section-{{ section.id }} {
+      {%- if section.settings.overlay_color != 'rgba(0,0,0,0)' -%}
+        --content-over-media-overlay: {{ section.settings.overlay_color.rgb }} / {{ section.settings.overlay_opacity | divided_by: 100.0 }};
+      {%- endif -%}
+
+      --content-over-media-content-max-width: var(--container-{{ section.settings.content_width }}-max-width);
+    }
+    #shopify-section-{{ section.id }} .prose :is(.button, .button-group:has(.button)) {
+      margin-block-start: 2rem;
+    }
+  </style>
+
+  {%- comment -%}
+  ------------------------------------------------------------------------------------------------------------------------
+  LIQUID
+  ------------------------------------------------------------------------------------------------------------------------
+  {%- endcomment -%}
+
+  <div class="">
+    <image-with-text-overlay class="bg-black content-over-media" reveal-on-scroll="true">
+      {%- if banner.background_image.value != blank -%}
+        {{- banner.background_image.value | image_url: width: banner.background_image.value.width | image_tag: sizes: '100vw', widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200', class: '!opacity-80' -}}
+      {%- endif -%}
+
+      <div class="flex flex-col items-center w-full !max-w-4xl gap-8 md:flex-row content md:gap-20">
+        <div class="w-full md:w-2/5">
+          {%- render 'media', media: banner.media.value, controls: true, playsinline: true, loop: true, class: 'w-full h-full' -%}
+        </div>
+        <div class="w-full prose text-center md:w-3/5">
+          {%- if banner.headline.value != blank -%}
+            <h3 class="text-white h3">{{ banner.headline.value }}</h3>
+          {%- endif -%}
+
+          {%- if banner.text.value != blank -%}
+            <div class="text-white lg:px-8">
+              {{- banner.text.value -}}
+            </div>
+          {%- endif -%}
+
+          {%- if banner.button_link.value != blank -%}
+            {%- render 'button', content: banner.button_text.value, href: banner.button_link.value -%}
+          {%- endif -%}
+
+        </div>
+      </div>
+    </image-with-text-overlay>
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Editorial Banner",
+  "class": "shopify-section--image-with-text-overlay",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "PDP A+ Editorial Banner",
+      "info": "All content in this section is contained within the [PDP A+ Editorial Banner metaobject](https://admin.shopify.com/store/avara-boutique/content/metaobjects/entries/driver_product_editorial_banner)."
+    }
+  ],
+  "presets": [
+    {
+      "category": "Product",
+      "name": "Editorial Banner"
+    }
+  ]
+}
+{% endschema %}

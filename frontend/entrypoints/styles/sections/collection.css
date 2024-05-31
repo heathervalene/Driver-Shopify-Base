@@ -1,0 +1,279 @@
+/* COLLECTION / PLP */
+.collection__main {
+  row-gap: 0;
+}
+
+.collection-toolbar {
+  min-height: 4rem;
+  box-shadow: 0 1px rgb(var(--border-color)), 0 -1px rgb(var(--border-color));
+  background-color: rgb(var(--background));
+  z-index: 2;
+  display: flex;
+  position: sticky;
+  inset-block-start: var(--sticky-area-height);
+  inset-inline-start: 0;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collection-toolbar .popover {
+  --popover-block-offset: 0;
+  inset-inline-end: 0;
+}
+
+.collection-toolbar__products-count {
+  position: relative;
+  inset-block-start: 0;
+  inset-inline-start: 0;
+  transform: none;
+}
+
+.collection-toolbar__button-list {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.collection-toolbar__button {
+  padding-block: .75rem;
+}
+
+.collection-toolbar__button :is(svg) {
+  transition: transform .2s;
+}
+
+.collection-toolbar__button[aria-expanded="true"] svg {
+  transform: rotateZ(180deg);
+}
+
+.collection-toolbar__button-container {
+  width: fit-content;
+  height: 100%;
+  position: relative;
+  border-inline-width: 1px;
+}
+
+.collection-toolbar__button-list {
+  flex-direction: row;
+  flex-grow: 1;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.collection-toolbar__button-container > .collection-toolbar__button {
+  width: max-content;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  height: 100%;
+}
+
+.collection-toolbar__layout-switch-list {
+  border-inline-start-width: 1px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  padding-inline: 1.25rem;
+  display: flex;
+}
+
+.collection-toolbar__button {
+  opacity: 1.0;
+  transition: opacity .2s;
+}
+
+.collection-toolbar__button:hover, .collection-toolbar__button.is-active {
+  opacity: 0.8;
+}
+
+/* Filters */
+.facets .dot-checkbox,
+.facets .dot-checkbox:checked,
+.facets input[type=checkbox],
+.facets input[type=checkbox]:checked {
+  display: none;
+}
+
+.facets .dot-checkbox~label, 
+.facets .price-filter {
+  color: theme(colors.gray);
+  opacity: 1;
+  font-size: theme(fontSize.base);
+  font-weight: normal;
+}
+
+.facets .dot-checkbox~label:hover {
+  color: theme(colors.brand-primary-100);
+  opacity: 1;
+}
+
+.facets .dot-checkbox:checked~label {
+  color: theme(colors.brand-primary-100);
+  opacity: 1;
+  transform: none;
+}
+
+.facets input[type=checkbox]:checked~label {
+  font-weight: 500;
+}
+
+.active-facets {
+  gap: 1rem;
+}
+
+.removable-facet {
+  flex-direction: row-reverse;
+  border-width: 0.75px;
+  border-color: theme(colors.black);
+  padding: 0.6rem 1rem;
+  font-size: 0.75rem;
+  line-height: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: .125rem;
+  color: theme(colors.black);
+}
+
+.removable-facet span {
+  margin-block-start: 0.25rem;
+}
+
+.color-swatch,
+.product-card__info .color-swatch {
+  --swatch-offset: 0;
+  --swatch-size: 0.9rem;
+  --swatch-border-size: 0.5px;
+  --swatch-disabled-strike-color: theme(colors.dun);
+  height: 0.9rem;
+  border: var(--swatch-border-size) solid theme(colors.dun);
+}
+
+#sort-by-popover::part(header) {
+  margin-inline: 2rem;
+}
+
+#facets-drawer {
+  --drawer-body-padding-block: 2rem;
+  --drawer-footer-padding-block: 2rem;
+  --drawer-max-width: min(100vw, 26.75rem);
+}
+
+#facets-drawer::part(base) {
+  height: auto;
+  min-height: 100vh;
+  overflow-y: scroll;
+} 
+
+#facets-drawer::part(content) {
+  height: auto;
+  min-height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#facets-drawer::part(header) {
+  margin-inline: 1.5rem;
+  padding-inline-start: 0.5rem;
+  padding-inline-end: 0.5rem;
+}
+
+#facets-drawer::part(body) {
+  padding-block-start: 0.25rem;
+  padding-inline-start: 1.75rem;
+  padding-inline-end: 1.75rem;
+}
+
+#facets-drawer::part(footer) {
+  border-block-start: none;
+  padding-block-end: 6rem;
+  padding-inline-start: 2rem;
+  padding-inline-end: 2rem;
+}
+
+.facets .accordion-list .accordion__toggle,
+.facets .accordion-list .accordion__content {
+  padding-inline: 0.5rem;
+}
+
+.facets .accordion-list .accordion:first-child .accordion__toggle {
+  padding-block-start: 1.25rem;
+}
+
+.facets .accordion-list .accordion,
+.facets .accordion-list .accordion:last-child {
+  border-block-end-width: 1px;
+}
+
+.facets .accordion-list .accordion:last-child .accordion__content {
+  padding-block-end: 1.25rem;
+}
+
+@media screen and (max-width: 349px) {
+  .collection-toolbar__products-count {
+    display: none;
+  }
+  .collection-toolbar__button-container {
+    width: 50%;
+    border-inline-width: 0;
+    border-inline-end-width: 1px;
+  }
+  .collection-toolbar__button-container > .collection-toolbar__button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .collection__main .product-list:not(.product-list--carousel) {
+      margin-inline: 0.1rem;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .collection__main .product-list[collection-desktop-layout=large] {
+      --product-list-items-per-row: 2;
+  }
+  .collection__main .product-list {
+    --product-list-default-row-gap: 3.5rem;
+    --product-list-default-column-gap: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .collection-toolbar {
+    min-height: 3.75rem;
+  }
+
+  .collection-toolbar__button {
+    padding-block: 1.125rem;
+  }
+
+  .collection-toolbar__layout-switch-list {
+    border-inline-width: 0 1px;
+    padding-inline: 1.875rem;
+  }
+  
+  #facets-drawer {
+    --drawer-body-padding-block: 2.5rem;
+    --drawer-footer-padding-block: 2.5rem;
+    --drawer-max-width: min(100vw, 30.625rem);
+  } 
+}
+
+@media screen and (min-width: 1000px) {
+  .collection__main .product-list[collection-desktop-layout=large] {
+      --product-list-items-per-row: 3;
+  }
+  .collection__main .product-list {
+    --product-list-default-row-gap: 1.5rem;
+    --product-list-default-column-gap: 1.85rem;
+  }
+  .collection-toolbar__button-list {
+    flex: none;
+  }
+  .collection-toolbar__button-container > .collection-toolbar__button {
+    padding-right: 2.25rem;
+  }
+  .facets .dot-checkbox~label, 
+  .facets .price-filter {
+    font-size: theme(fontSize.sm);
+  }
+}

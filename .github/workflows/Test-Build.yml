@@ -1,0 +1,37 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Feature | Build Test
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  pull_request:
+    branches: [ "develop" ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    name: Build For Feature
+    if: github.event.pull_request.draft == true
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4.1.1
+      - uses: actions/setup-node@v4.0.2
+        with:
+          node-version: 18
+      - uses: ruby/setup-ruby@v1.173.0
+        with: 
+          ruby-version: 3.1
+          bundler: 'latest'
+      # Installs all dependancies in the package.json file
+      - name: Install Dependancies
+        run: npm i
+      # Runs the Build script from package.json to build the theme files
+      - name: Build and Package Theme Files.
+        run: npm run build

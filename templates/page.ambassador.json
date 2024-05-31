@@ -1,0 +1,389 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_tWAUQW": {
+      "type": "image-with-text",
+      "blocks": {
+        "richtext_NgtFea": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1><em>Join The Avara<br\/><\/em>AMBASSADOR<br\/>COMMUNITY<\/h1>"
+          }
+        },
+        "richtext_RRrT6y": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>We’re looking for passionate Avaraistas who love our brand and want to share our products with their community.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_NgtFea",
+        "richtext_RRrT6y"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.section-spacing {padding-block-start: 0; }}",
+        "@media (min-width: 700px) {h1, .prose :where(h1) {font-size: 2.25rem; line-height: 1; } .prose div > p {padding-inline-end: 20%; }}",
+        "@media (min-width: 850px) {h1, .prose :where(h1) {font-size: 3rem; line-height: 1; }}",
+        "@media (min-width: 1250px) {h1, .prose :where(h1) {font-size: 4.5rem; line-height: 1; }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-27b7622e-5053-45db-b34b-df5b0f48b74b",
+        "contain": true,
+        "contain_mobile": false,
+        "align_center": false,
+        "mobile_reverse": false,
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/5bbbaad748d4a333a5709fc60e5c2698.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_dCEHKN": {
+      "type": "rich-text",
+      "blocks": {
+        "button_TyWkgh": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "APPLY HERE",
+            "url": "https:\/\/s2.affiliatly.com\/af-1049379\/affiliate.panel?mode=register",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_TyWkgh"
+      ],
+      "custom_css": [
+        ".button {width: 531px; border: 1px solid #1c1c1c;}",
+        ".button:hover {background: #1c1c1c; color: #ffffff;}",
+        ".container {margin-block-end: 1.5rem;}",
+        "@media only screen and (max-width: 699px) {.button {width: 85%; border: none; background: #ffd6e2; }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "content_width": "lg",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "multi_column_3rbVPE": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_dPBUHP": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "#f7f4f2",
+            "image": "shopify:\/\/shop_images\/Ambassador_apply.svg",
+            "title": "<h3>APPLY<\/h3>",
+            "content": "<p>We’re looking for passionate Avaraistas who love our brand and want to share our products and with their community! <\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_FYYmBd": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "#f7f4f2",
+            "image": "shopify:\/\/shop_images\/Ambassador_share.svg",
+            "title": "<h3>SHARE<\/h3>",
+            "content": "<p>Share Avara on your social platforms with your personalized link! The more you share, the more you earn!<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_KwfWgP": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "#fceff3",
+            "image": "shopify:\/\/shop_images\/Ambassador_earn.svg",
+            "title": "<h3>EARN $$$<\/h3>",
+            "content": "<p>Earn 10% commission on orders generated through your personalized link!<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_CrQeBY": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "#fceff3",
+            "image": "shopify:\/\/shop_images\/Ambassador_product.svg",
+            "title": "<h3>RECEIVE FREE PRODUCT!<\/h3>",
+            "content": "<p>Receive new Avara items to share as you make sales in the program!<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_xdMx8P": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "#f7f4f2",
+            "image": "shopify:\/\/shop_images\/Ambassador_community.svg",
+            "title": "<h3>BUILD COMMUNITY<\/h3>",
+            "content": "<p>Enjoy and contribute to a community of supportive women who love Avara!<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_dPBUHP",
+        "image_with_text_FYYmBd",
+        "image_with_text_KwfWgP",
+        "image_with_text_CrQeBY",
+        "image_with_text_xdMx8P"
+      ],
+      "custom_css": [
+        ".multi-column {row-gap: 1.5rem;}",
+        ".multi-column__item {padding: 2.5rem 1.5rem;}",
+        "@media only screen and (min-width: 700px) {.multi-column {row-gap: 3rem; } .multi-column__item {padding: 3rem; } .multi-column__item:last-child:nth-last-child(odd) {grid-column: auto \/ span 2; } .multi-column__item:first-child:nth-last-child(even), .multi-column__item:first-child:nth-last-child(even) ~ .multi-column__item {grid-column: auto \/ span 1; }}",
+        "@media only screen and (min-width: 1000px) {.multi-column {margin-inline: 12%; }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": true,
+        "columns_per_row": 2,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "sm",
+        "subheading": "",
+        "title": "<em>get <\/em>STARTED",
+        "content": ""
+      }
+    },
+    "media_grid_kccnwi": {
+      "type": "media-grid",
+      "blocks": {
+        "image_GCVrAq": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/13ea99b1f7fc2a8b96cf5482e6498a4f.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_eUXijc": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/68791420aea29c63fa4c6ec3b909bd0c.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Wkd3HB": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/ccbd217c5e6122dde5b833099d6051fd.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_GKL3Tm": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify:\/\/shop_images\/3ffcb6826d3ae4467613e03711c09ca7.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_qjLYqR": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify:\/\/shop_images\/c82f9beb48fbd06ff5057a46c4f310a0.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_mJEQxd": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify:\/\/shop_images\/2f75a96b3ad2c4a16bf2441332ff1750.jpg",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_GCVrAq",
+        "image_eUXijc",
+        "image_Wkd3HB",
+        "image_GKL3Tm",
+        "image_qjLYqR",
+        "image_mJEQxd"
+      ],
+      "custom_css": [
+        ".section-stack {gap: 4rem;}",
+        "@media screen and (max-width: 699px) {.media-grid__item:nth-child(-n + 4) {--media-grid-item-row-span: 0 !important; } .section-stack {gap: 2.5rem; }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "desktop_row_height": 360,
+        "mobile_row_height": 200,
+        "section_width": "lg",
+        "spacing": "sm",
+        "subheading": "",
+        "title": "<em>we are<\/em> AVARAISTAS",
+        "content": ""
+      }
+    },
+    "images_with_text_scroll_RAx9Qy": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "image_with_text_KqQ7JR": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ambassador_spotlight_1.jpg",
+            "subheading": "Ambassador spotlight",
+            "title": "<em>Ambassador<\/em> NAME",
+            "content": "<p>“You guys are truly so generous. I couldn't ask for more! I love being an Avara ambassador!”<\/p>",
+            "link_text": "Learn more",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_EG36ip": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16bdaeb8bbf4141e7053368117ab3291.jpg",
+            "subheading": "Ambassador spotlight",
+            "title": "<em>Ambassador <\/em>NAME",
+            "content": "<p>“You guys are truly so generous. I couldn't ask for more! I love being an Avara ambassador!”<\/p>",
+            "link_text": "Learn More",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_KqQ7JR",
+        "image_with_text_EG36ip"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 699px) {.images-with-text-scroll__container {padding-block-start: 0; padding-block-end: 4rem; }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-9c26488b-5769-4a23-af53-f815476ba9f9",
+        "image_position": "start",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "featured_collections_wzzVHn": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_6mYqiB": {
+          "type": "collection",
+          "settings": {
+            "collection": "girls-trip",
+            "products_count": 8,
+            "title": "<em>Ambassador<\/em> PICKS",
+            "link_url": "shopify:\/\/collections\/ambassador-picks",
+            "link_text": "Shop all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_6mYqiB"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_tWAUQW",
+    "rich_text_dCEHKN",
+    "multi_column_3rbVPE",
+    "media_grid_kccnwi",
+    "images_with_text_scroll_RAx9Qy",
+    "featured_collections_wzzVHn"
+  ]
+}

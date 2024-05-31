@@ -1,0 +1,39 @@
+<!-- Swym Wishlist on Existing Page -->
+<div class='container mt-12 mb-0 container--lg'>
+  <div class='block w-full pb-10 mx-auto text-center rte'>
+    <h1 class='h1'>
+      {{- page.title -}}
+    </h1>
+    {%- comment -%} Back to Account {%- endcomment -%}
+    <p class="flex flex-row items-center justify-center gap-1 pt-2 lg:pt-4">
+      <a href="{{ routes.account_url }}" class="items-start font-sans text-xs leading-none uppercase text-with-icon text-dun">
+        {%- render 'icon' with 'chevron-left', width: 10, direction_aware: true -%}
+        {{- 'customer.order.back' | t: name: order.name -}}
+      </a>
+    </p>
+    {%- if page.content != blank -%}
+      {{- page.content -}}
+    {%- endif -%}
+  </div>
+</div>
+
+<!-- Render Wishlisted Products -->
+<div id="wishlist-items-container" class="container pt-12 pb-20 bg-white container--lg"></div>
+
+{% schema %}
+{
+  "name": "Wishlist",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "There are no Theme Editor settings for this page."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Wishlist"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,448 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-2",
+        "show_title": true,
+        "page_width": "sm"
+      }
+    },
+    "rich_text_rJjm9g": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XnGbFx": {
+          "type": "heading",
+          "settings": {
+            "text": "<em>in the<\/em> PRESS",
+            "heading_tag": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XnGbFx"
+      ],
+      "custom_css": [
+        ".section-spacing {margin-block-start: 5rem;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-d8f16f17-06ef-46e8-80f1-45a63f469a1f",
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "press_iqh6B6": {
+      "type": "press",
+      "blocks": {
+        "image_with_text_HFXihF": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "rgba(0,0,0,0)",
+            "image": "shopify:\/\/shop_images\/daily_mom_logo.png",
+            "title": "Daily Mom",
+            "date": "",
+            "content": "<p>17 of The Best Christmas Gifts Ideas for Everyone to Make the Holidays Special<\/p>",
+            "link_url": "https:\/\/dailymom.com\/discover\/gifts-ideas-for-everyone\/",
+            "link_text": ""
+          }
+        },
+        "image_with_text_8p4nnM": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/22-Advocate-Logo-PH-sm.png",
+            "title": "Advocate Magazine",
+            "date": "December 14, 2023",
+            "content": "<p>Avara is painting the town pink<\/p>",
+            "link_url": "https:\/\/prestonhollow.advocatemag.com\/2023\/12\/14\/avara-is-painting-the-town-pink\/",
+            "link_text": ""
+          }
+        },
+        "image_with_text_3Jjy76": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/today-show.jpg",
+            "title": "The Today Show",
+            "date": "December 04, 2023",
+            "content": "<p>Be the best dressed holiday party guest with these trendy looks<\/p>",
+            "link_url": "https:\/\/www.today.com\/video\/looking-for-something-to-wear-to-holiday-parties-try-these-looks-199320645670",
+            "link_text": ""
+          }
+        },
+        "image_with_text_NcjTa4": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/22-Advocate-Logo-PH-sm.png",
+            "title": "Advocate Magazine",
+            "date": "December 06, 2023",
+            "content": "<p>Where to find the great gifts in our neighborhood<\/p>",
+            "link_url": "https:\/\/prestonhollow.advocatemag.com\/2023\/12\/06\/gift-guide-23\/",
+            "link_text": ""
+          }
+        },
+        "image_with_text_8EnpL4": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/Arkansas_Style_logo.jpg",
+            "title": "Arkansas Style",
+            "date": "December 06, 2023",
+            "content": "<p>Holiday looks delivered to your door<\/p>",
+            "link_url": "https:\/\/www.kark.com\/arkansas-style\/holiday-looks-delivered-to-your-door\/",
+            "link_text": ""
+          }
+        },
+        "image_with_text_L6ddiP": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/dallas_innovates_logo.png",
+            "title": "Dallas Innovates",
+            "date": "October 18, 2023",
+            "content": "<p>\"Dallas-based women’s clothing retailer Avara was ranked the No. 1 fastest-growing e-commerce business in the U.S. on the 2023 Inc. 5000 list.\"<\/p><p>The Last Word: Avara’s Emily Wickard on Leading the Fastest-Growing e-Commerce Business in the U.S.<\/p>",
+            "link_url": "https:\/\/dallasinnovates.com\/the-last-word-avaras-emily-wickard-on-leading-the-fastest-growing-e-commerce-business-in-the-u-s\/",
+            "link_text": ""
+          }
+        },
+        "image_with_text_UxkXrt": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/local_on_2.jpg",
+            "title": "Local On 2",
+            "date": "October 23, 2023",
+            "content": "<p>\"Avara is one of the fastest growing online boutiques and their styles are so cute! \"<\/p><p>Avara is here to help you dress your best ahead of the holidays<\/p>",
+            "link_url": "https:\/\/www.youtube.com\/watch?v=z5BWlBkj0uQ",
+            "link_text": ""
+          }
+        },
+        "image_with_text_AE4jh7": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/dallas_innovates_logo.png",
+            "title": "Dallas Innovates",
+            "date": "October 05, 2023",
+            "content": "<p>\"Emily Wickard launched Avara with a Google search and a \"showroom\" in her dining room. In August, her company made the Inc. 5000 list as the No. 1 fastest-growing e-commerce business in the U.S.\"<\/p><p>How Avara Grew from a Small Dallas Fashion Startup to an Inc. 5000 eCommerce Powerhouse<\/p>",
+            "link_url": "https:\/\/dallasinnovates.com\/how-avara-grew-from-a-small-dallas-fashion-startup-to-an-inc-5000-ecommerce-powerhouse\/",
+            "link_text": ""
+          }
+        },
+        "image_with_text_LiaFL8": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/Dallas_news_logo.png",
+            "title": "Dallas Morning News",
+            "date": "October 03, 2023",
+            "content": "<p>\"Stepping into Avara’s Dallas headquarters is like walking into a Barbie dream house converted into an office.\"<\/p><p>Emily Wickard left corporate finance behind. Now, she owns a fast-growing Dallas boutique<\/p>",
+            "link_url": "https:\/\/www.dallasnews.com\/business\/retail\/2023\/10\/03\/emily-wickard-left-corporate-finance-behind-now-she-owns-a-fast-growing-dallas-boutique\/",
+            "link_text": ""
+          }
+        },
+        "image_with_text_V3QTPN": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/tash_collection_image.png",
+            "title": "Hello Happiness",
+            "date": "September 13, 2023",
+            "content": "<p>\"the elevated silhouettes are wardrobe essentials you’ll want to wear over and over again, season after season.\"<\/p><p>spice things up… my fall 2023 collection with shop avara<br\/><\/p>",
+            "link_url": "https:\/\/hellohappinessblog.com\/2023\/09\/spice-things-up-my-fall-2023-collection-with-shop-avara\/",
+            "link_text": ""
+          }
+        },
+        "image_with_text_f9iNW8": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-09-14_at_2.16.15_PM.png",
+            "title": "Texas Today",
+            "date": "August 31, 2023",
+            "content": "<p>\"Beat the heat while staying stylish with the latest trends from Avara.\"<\/p><p>Showcasing the latest trends at Avara<\/p>",
+            "link_url": "https:\/\/www.nbcdfw.com\/texas-today\/showcasing-the-latest-trends-at-avara\/3327779\/",
+            "link_text": ""
+          }
+        },
+        "image_with_text_aJJcA7": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/367637_Avara_-_2023Inc5000_Custom_SubList_Industry.png",
+            "title": "Inc. Magazine",
+            "date": "",
+            "content": "<p>\"Fun and easy shopping for busy women with colorful, chic and affordable pieces from their own line and favorite brands.\"<\/p><p>Inc. 5000: Avara Company Profile<\/p>",
+            "link_url": "https:\/\/www.inc.com\/profile\/shop-avara",
+            "link_text": ""
+          }
+        },
+        "image_with_text_hqPxFb": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/AVARA_INC_5000.jpg",
+            "title": "businesswire",
+            "date": "August 15, 2023",
+            "content": "<p>\"Avara Named #1 E-Commerce Business in Inc. 5000 List of Fastest Growing Private Companies\"<\/p><p>Dallas-based, woman-owned business ranked for the second year in a row, placing in the top 5 fastest growing women’s retailers in the nation<\/p>",
+            "link_url": "https:\/\/www.businesswire.com\/news\/home\/20230815009321\/en\/Avara-Named-1-E-Commerce-Business-in-Inc.-5000-List-of-Fastest-Growing-Private-Companies",
+            "link_text": ""
+          }
+        },
+        "image_with_text_aPTpYk": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/6F395EB0-AF99-45D3-A0D5-F8E434B4B448.jpg",
+            "title": "People Newspapers",
+            "date": "November 10, 2022",
+            "content": "<p>\"Apparel retailer celebrates Park Cities roots, increasing online success\"<\/p><p>Shop Avara Earns Attention with Rapid Business Growth<\/p>",
+            "link_url": "https:\/\/www.peoplenewspapers.com\/2022\/11\/10\/shop-avara-earns-attention-with-rapid-business-growth\/",
+            "link_text": ""
+          }
+        },
+        "image_with_text_eFy8DF": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/90827442-AA76-433C-947D-13CE79B10CD7.jpg",
+            "title": "NEWSWIRE",
+            "date": "August 18, 2022",
+            "content": "<p>\"Dallas-based, woman-owned business breaks into top 500 with growth of more than 1,400% over the last three years\"<\/p><p>Avara Named to Inc. 5000 List of Fastest-Growing Private Companies<\/p>",
+            "link_url": "https:\/\/www.newswire.com\/news\/avara-named-to-inc-5000-list-of-fastest-growing-private-companies-21799795",
+            "link_text": ""
+          }
+        },
+        "image_with_text_VAKjJx": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/BEFD2546-D0CD-4C2B-9559-D582BD225323.jpg",
+            "title": "Thrifty Pineapple",
+            "date": "July 21, 2022",
+            "content": "<p>\"Avara handpicks chic and unique clothing and accessories available online and in-store in Dallas, TX.\"<\/p><p>New Boutique Alert: Shop Avara Review<\/p>",
+            "link_url": "https:\/\/www.thethriftypineapple.com\/new-boutique-alert-shop-avara-review\/",
+            "link_text": ""
+          }
+        },
+        "image_with_text_fnxUN9": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/C1FA40D1-2470-4825-A158-83701A95EC96.png",
+            "title": "Postscript Case Study",
+            "date": "August 1, 2021",
+            "content": "<p>\"Avara was founded by Emily Wickard; a corporate employee turned ecommerce entrepreneur.\"<\/p><p>How Avara went from 0 SMS experience to +$100k in revenue in 30 days<\/p>",
+            "link_url": "https:\/\/postscript.io\/case-study-avara",
+            "link_text": ""
+          }
+        },
+        "image_with_text_8qkzU4": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/CA9C754E-6AA7-413B-9C29-8F14D319D262.jpg",
+            "title": "Modern Luxury Dallas",
+            "date": "May 01, 2021",
+            "content": "<p>\"What happens when a women with a 20-year career in Corporate Finance decides to leave it all behind to embark on a whole new adventure? A successful second career and more time to spend with her family!\"<\/p><p>Modern Moms<\/p>",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0011\/3849\/1490\/files\/AvDALL___May_21.pdf?v=1686343645",
+            "link_text": ""
+          }
+        },
+        "image_with_text_9YM9BA": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/83ABDA0A-B7E8-4598-981D-B8ACE5780465.jpg",
+            "title": "People Newspapers",
+            "date": "September 25, 2020",
+            "content": "<p>\"A Park Cities mom’s clothing and accessories boutique, Avara, which started in 2018 as an online shop, has grown to include a physical location.\"<\/p><p>Passion For Fashion<\/p>",
+            "link_url": "https:\/\/www.peoplenewspapers.com\/2020\/09\/25\/passion-for-fashion\/",
+            "link_text": ""
+          }
+        },
+        "image_with_text_UV7Qkj": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/B1F939AE-D43E-41E2-838C-0CDE67005E9C.jpg",
+            "title": "The Bubble Lounge Podcast",
+            "date": "August 13, 2020",
+            "content": "<p>\"Park Cities' mom, Emily Wickard, left the corporate world to open a clothing boutique from home.\"<\/p><p>How to open a business during a pandemic - Emily Wickard of AVARA<\/p>",
+            "link_url": "https:\/\/podcast.bubblelounge.net\/215406\/4851674-how-to-open-a-business-during-a-pandemic-emily-wickard-of-avara",
+            "link_text": ""
+          }
+        },
+        "image_with_text_ph4Lb6": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/57C489F3-4886-4717-BD7B-FCFF9FFF389E.jpg",
+            "title": "VoyageDallas",
+            "date": "December 17, 2019",
+            "content": "<p>\"After working 20+ years in Corporate America, I landed what I thought would be my dream job – Vice President of Finance for a Fortune 500 company.\"<\/p><p>Meet Emily Wickard of Shop Avara in University Park<\/p>",
+            "link_url": "https:\/\/voyagedallas.com\/interview\/meet-emily-wickard-shop-avara-university-park\/",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_HFXihF",
+        "image_with_text_8p4nnM",
+        "image_with_text_3Jjy76",
+        "image_with_text_NcjTa4",
+        "image_with_text_8EnpL4",
+        "image_with_text_L6ddiP",
+        "image_with_text_UxkXrt",
+        "image_with_text_AE4jh7",
+        "image_with_text_LiaFL8",
+        "image_with_text_V3QTPN",
+        "image_with_text_f9iNW8",
+        "image_with_text_aJJcA7",
+        "image_with_text_hqPxFb",
+        "image_with_text_aPTpYk",
+        "image_with_text_eFy8DF",
+        "image_with_text_VAKjJx",
+        "image_with_text_fnxUN9",
+        "image_with_text_8qkzU4",
+        "image_with_text_9YM9BA",
+        "image_with_text_UV7Qkj",
+        "image_with_text_ph4Lb6"
+      ],
+      "custom_css": [
+        ".multi-column {row-gap: 1.5rem;}",
+        ".multi-column__item {padding: 2.5rem 1.5rem;}",
+        "@media only screen and (max-width: 700px) {.section-spacing {padding-top: 0px; }}",
+        "@media only screen and (min-width: 700px) {.multi-column {row-gap: 2rem; } .multi-column__item {padding: 3rem 0rem 3rem 0rem; } .text-start {width: 300px; }}",
+        "@media only screen and (min-width: 1100px) {.multi-column {margin-inline: 10%; }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "columns_per_row": 2,
+        "hidden-number": 3,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "start",
+        "spacing": "lg",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "rich_text_wUjJiH": {
+      "type": "rich-text",
+      "blocks": {
+        "image_jPxXAK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mail_Icon_be465e39-d2f2-4b2e-9fbb-1177fae21aa2.svg",
+            "width_mode": "full_width",
+            "max_width": 100,
+            "mobile_max_width": 100
+          }
+        },
+        "heading_AAJzQL": {
+          "type": "heading",
+          "settings": {
+            "text": "<em>Press<\/em> INQUIRIES",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_Mt6GBz": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h4>Please contact us through <a href=\"mailto:PR@shopavara.com\" title=\"mailto:PR@shopavara.com\">PR@shopavara.com<\/a><\/h4>"
+          }
+        }
+      },
+      "block_order": [
+        "image_jPxXAK",
+        "heading_AAJzQL",
+        "richtext_Mt6GBz"
+      ],
+      "custom_css": [
+        "p,.prose :where(p) {font-size: 72px;}",
+        "h4,.prose :where(h4) {font-size: 24px;}",
+        ".section-spacing {padding-block: 10rem;}",
+        "@media screen and (max-width: 699px) {.prose {margin-block-start: 0; margin-block-end: 2rem; } .section-spacing {padding-block: 10rem; } p, .prose :where(p) {font-size: 46px; } h4, .prose :where(h4) {font-size: 14px; line-height: 17px; letter-spacing: 1px; text-transform: capitalize; }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-022bd395-5f1c-47d5-9c98-1d5fc773da93",
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "testimonials_A4TXCC": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_96NJUr": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”<\/p>",
+            "content_link": "",
+            "image": "shopify:\/\/shop_images\/Today.svg",
+            "logo_max_width": 85,
+            "logo_mobile_max_width": 85,
+            "author": ""
+          }
+        },
+        "testimonial_Wj8L9P": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”<\/p>",
+            "content_link": "",
+            "image": "shopify:\/\/shop_images\/The_Dallas_Morning_News_Logo.svg",
+            "logo_max_width": 210,
+            "logo_mobile_max_width": 170,
+            "author": ""
+          }
+        },
+        "testimonial_6XVMFt": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”<\/p>",
+            "content_link": "",
+            "image": "shopify:\/\/shop_images\/inc_500.svg",
+            "logo_max_width": 85,
+            "logo_mobile_max_width": 85,
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_96NJUr",
+        "testimonial_Wj8L9P",
+        "testimonial_6XVMFt"
+      ],
+      "custom_css": [
+        ".testimonial-item {max-width: 32rem;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "auto_rotate_between_testimonials": false,
+        "cycle_speed": 5,
+        "font_size_factor": 1,
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_rJjm9g",
+    "press_iqh6B6",
+    "rich_text_wUjJiH",
+    "testimonials_A4TXCC"
+  ]
+}

@@ -1,0 +1,62 @@
+/* GLOBAL */
+.rte a {
+  text-decoration: none;
+  border: none;
+}
+
+/* POLICIES & SITEMAP */
+.shopify-policy__container,
+.sitemap__container {
+  background: white;
+  max-width: 100%;
+  padding-block-start: var(--section-vertical-spacing);
+  padding-block-end: var(--section-vertical-spacing);
+  margin: 0;
+}
+.shopify-policy__title h1 {
+  display: none;
+}
+.shopify-policy__body,
+.sitemap__body {
+  max-width: var(--container-sm-max-width);
+  margin: 0 auto;
+}
+
+/* PAGES */
+.page-size-chart .table-scroller {
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.size-charts {
+  margin-block-end: 2.5rem;
+}
+table.size-chart {
+  min-width: max-content;
+  border: 1px solid theme(colors.brand-tertiary-100);
+}
+table.size-chart th,
+table.size-chart td {
+  font-family: theme(fontFamily.sans);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  padding-block: 0;
+  padding: 1rem 3rem;
+  opacity: 1.0;
+}
+table.size-chart >  thead {
+  background-color: theme(colors.brand-primary-400);
+  color: theme(colors.brand-primary-200);
+}
+.size-chart-modal::part(header) h5 {
+  font-weight: 700;
+}
+.size-chart-modal::part(body) {
+  background: white;
+}

@@ -1,0 +1,138 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-2",
+        "show_title": true,
+        "page_width": "sm"
+      }
+    },
+    "image_with_text_VqTUWH": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KDhEgq": {
+          "type": "heading",
+          "settings": {
+            "text": "Curated Women’s Fashion",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KDhEgq"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 700px) {.image-with-text {justify-items: end; }}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "contain": false,
+        "contain_mobile": false,
+        "align_center": true,
+        "mobile_reverse": false,
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/Image.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/Image-14.png",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "multi_column_6YVfjM": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_hmQit9": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "#fceff3",
+            "image": "shopify:\/\/shop_images\/Bestsellers_Icon_fdfd3078-ee1e-4a4e-9c47-1eda5b916ce7.svg",
+            "title": "<h3>Best Sellers<\/h3>",
+            "content": "",
+            "link_url": "shopify:\/\/collections\/bestsellers",
+            "link_text": ""
+          }
+        },
+        "image_with_text_phGt4y": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "#fceff3",
+            "image": "shopify:\/\/shop_images\/New_Arrivals_Icon_0286f952-ec6d-4c34-a662-2843effd265b.svg",
+            "title": "<h3>New Arrivals<\/h3>",
+            "content": "",
+            "link_url": "shopify:\/\/collections\/new-arrivals",
+            "link_text": ""
+          }
+        },
+        "image_with_text_rhbPak": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "#fceff3",
+            "image": "shopify:\/\/shop_images\/Shop_Dresses_Icon_251b172c-5d6e-4506-a7f3-64e43a719165.svg",
+            "title": "<h3>Shop Dresses<\/h3>",
+            "content": "",
+            "link_url": "shopify:\/\/collections\/dresses",
+            "link_text": ""
+          }
+        },
+        "image_with_text_UVaBJT": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "#fceff3",
+            "image": "shopify:\/\/shop_images\/Shop_Tops_Icon_0a26df27-e8dd-4194-889b-17af886bbf13.svg",
+            "title": "<h3>Shop Tops<\/h3>",
+            "content": "",
+            "link_url": "shopify:\/\/collections\/tops",
+            "link_text": ""
+          }
+        },
+        "image_with_text_mczXfw": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "#fceff3",
+            "image": "shopify:\/\/shop_images\/Customer_Service_Icon_e52512ec-461a-43f3-a3b8-4a12f2d6dcad.svg",
+            "title": "<h3>Customer Service<\/h3>",
+            "content": "",
+            "link_url": "shopify:\/\/pages\/help-center",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_hmQit9",
+        "image_with_text_phGt4y",
+        "image_with_text_rhbPak",
+        "image_with_text_UVaBJT",
+        "image_with_text_mczXfw"
+      ],
+      "custom_css": [
+        ".multi-column {row-gap: 1.5rem;}",
+        ".multi-column__item {padding: 1.75rem; gap: 1.25rem;}",
+        "@media only screen and (min-width: 700px) {.multi-column {row-gap: 3rem; } .multi-column__item {padding: 1.75rem; } .multi-column__item:last-child:nth-last-child(odd) {grid-column: auto \/ span 2; } .multi-column__item:first-child:nth-last-child(even), .multi-column__item:first-child:nth-last-child(even) ~ .multi-column__item {grid-column: auto \/ span 1; }}",
+        "@media only screen and (min-width: 1000px) {.multi-column {margin-inline: 7%; }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "content_width": "xl",
+        "columns_per_row": 2,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "sm",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_VqTUWH",
+    "multi_column_6YVfjM"
+  ]
+}

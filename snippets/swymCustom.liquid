@@ -1,0 +1,217 @@
+<!-- Custom Swym CSS -->
+<style>
+  .swym-ui-components, .swym-ui-component,
+  .swym-emphasis, .swym-details {
+    font-family: "Avenir Next" !important;
+  }
+
+  /* HIDE SIZE VARIANT on Wishlist Page until OOS variant issue is resolved */
+  .swym-variant-title {
+    display: none;
+  }
+
+  /* Custom Swym Heart Icon */
+  .swym-button.swym-add-to-wishlist-view-product.swym-heart:after,
+  .swym-button.swym-add-to-wishlist-view-product.swym-heart.swym-added:after {
+    content: none;
+  }
+  .swym-button.swym-add-to-wishlist-view-product.swym-added {
+    opacity: 1 !important;
+  }
+  .swym-button.swym-add-to-wishlist-view-product.swym-added > svg {
+    fill: #1C1C1C !important;
+  }
+  .swym-button.swym-add-to-wishlist-view-product {
+    font-size: 0;
+    color: #1C1C1C !important;
+  }
+
+  /* Swym Save For Later & Wishlist Page */
+  .swym-sfl-body {
+    display: block;
+  }
+  .swym-sfl-list-container {
+    padding: 0 8% !important;
+  }
+  .swym-sfl-image-container, .swym-wishlist-image-wrapper {
+    position: relative;
+    border: 1px solid #F7F4F2;
+    aspect-ratio: 2/3;
+    place-content: center;
+    background: white;
+    margin-bottom: 1.5rem;
+  }
+  .swym-title, .swym-sfl-list-item-title {
+    text-align: center;
+    padding-bottom: 0.35rem;
+    font-family: 'orpheuspro' !important;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    letter-spacing: 0.0625rem;
+    min-height: auto !important;
+    width: 100%;
+  }
+  .swym-sfl-cross-button svg {
+    width: 0.85rem;
+  }
+  .swym-sfl-cross-button {
+    background-color: transparent;
+  }
+  .swym-product-price,
+  .swym-text, 
+  .swym-price {
+    text-align: center;
+    padding-bottom: 0.35rem;
+    font-family: "Avenir Next";
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.03125rem;
+    font-weight: 400;
+    width: 100%;
+  }
+  .swym-sfl-list-header {
+    font-size: 32px;
+  }
+  .swym-sfl-list-header-container {
+    font-family: 'orpheuspro' !important;
+    margin-bottom: 30px;
+  }
+  .swym-sfl-move-all-to-cart {
+    font-size: 12px !important;
+    line-height: 16px !important;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 16px 40px !important;
+  }
+  .swym-wishlist-grid, .swym-sfl-grid-body {
+    display: grid;
+    column-gap: 2rem;
+    row-gap: 2.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 260px));
+    justify-content: start;
+  }
+  .swym-is-button {
+    width: 100%;
+  }
+  button.swym-button {
+    margin: 0 auto;
+    height: auto;
+    padding: 1rem 2.5rem;
+    width: max-content;
+  }
+  .swym-wishlist-grid .swym-add-to-cart-btn, 
+  .swym-wishlist-detail-content .swym-wishlist-add-to-cart-btn,
+  .swym-sfl-add-to-cart-btn {
+    width: 100%;
+    background: #ffffff !important;
+    border: 1px solid #1C1C1C !important;
+    color: #1C1C1C !important;
+    font-family: 'orpheuspro' !important;
+    font-size: 0.75rem;
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+  }
+  .swym-wishlist-grid .swym-add-to-cart-btn[data-state-cart="swym-added"],
+  .swym-wishlist-grid .swym-add-to-cart-btn[data-state-cart=" swym-added"],
+  .swym-wishlist-grid .swym-add-to-cart-btn[data-state-cart="swym-added"]:hover,
+  .swym-wishlist-grid .swym-add-to-cart-btn[data-state-cart=" swym-added"]:hover {
+    background: #1C1C1C !important;
+    color: #ffffff !important;
+    filter: unset; 
+    opacity: 1;
+  }
+  .swym-sfl-move-all-to-cart:not(:disabled):hover,
+  .swym-wishlist-grid .swym-add-to-cart-btn:hover, 
+  .swym-wishlist-detail-content .swym-wishlist-add-to-cart-btn:hover,
+  .swym-sfl-add-to-cart-btn:hover {
+    filter: invert(1);
+  }
+  .swym-btn-container[data-position=default] .swym-add-to-watchlist.swym-text {
+    font-family: 'orpheuspro' !important;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: 0.0625rem;
+    text-transform: uppercase;
+    height: auto;
+    padding: 1rem 2.5rem;
+  }
+  .swym-delete-btn {
+    width: 0.85rem;
+  }
+  .swym-tooltip {
+    display: none !important;
+  }
+  .swym-wishlist-item {
+    position: relative;
+  }
+  .swym-delete-btn {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 1;
+  }
+  .swym-product-price {
+    margin-bottom: 1rem !important;
+  }
+  @media screen and (max-width: 699px) {
+    .swym-sfl-list-header-container {
+      flex-direction: column;
+      gap: 2rem;
+      align-items: start;
+      padding-inline: 2rem;
+    }
+    .sfl-empty-list {
+      padding-inline: 2rem;
+    }
+    .swym-sfl-list-container {
+      padding: 0 !important;
+    }
+    .swym-wishlist-grid, .swym-sfl-grid-body {
+      justify-content: center;
+      grid-template-columns: 1fr 1fr;
+      align-items: start;
+      column-gap: 1rem;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .swym-sfl-add-to-cart-btn {
+      padding: 7%; 
+    }
+  }
+</style>
+
+<!-- Custom Code to Add Wishlist behind Login. -->
+<script defer>
+  function swymCallbackFn(swat) {
+    console.log('init');
+    console.log(swat)
+    swat.initializeActionButtons('main');
+    var isLoggedIn;
+    const swymPopup = document.querySelector('swym-popup');
+
+    let onSuccess = function (response) {
+
+      console.log('Successfully Initialized, And we created a Save for Later List', response);
+    };
+
+    let onError = function (error) {
+      // Error is an xhrObject
+      console.log('There was an Error, while creating the Save For Later List', error);
+    };
+
+    //safe for later init
+    swat.SaveForLater.init(onSuccess, onError);
+  }
+
+  function swymCollectionCallbackFn(swat) {
+    // your API calls go here
+    document.addEventListener('swym:collections-loaded', function () {
+      console.log('trigger load');
+      swat.initializeActionButtons('.product-list');
+    });
+  }
+  if (!window.SwymCallbacks) {
+    window.SwymCallbacks = [];
+  }
+  window.SwymCallbacks.push(swymCallbackFn, swymCollectionCallbackFn);
+</script>

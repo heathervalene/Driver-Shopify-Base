@@ -1,0 +1,68 @@
+{%- comment -%} Mobile Nav {%- endcomment -%}
+<div
+  class="block lg:hidden">
+  <h1
+    class="mb-8 h4 text-dun">Account</h1>
+  <div
+    class="flex flex-row items-center justify-between w-full px-6 py-3 border border-timberwolf">
+    <select
+      class="w-full bg-transparent appearance-none"
+      onchange="location = this.value;">
+      <option
+        value="{{- routes.account_url -}}"
+        {% if template == 'customers/account' %}
+        selected
+        {% endif %}>
+        Overview
+      </option>
+      <option
+        value="{{- routes.account_addresses_url -}}"
+        {% if template == 'customers/addresses' %}
+        selected
+        {% endif %}>
+        Addresses
+      </option>
+      <option
+        value="/pages/swym-wishlist">{{ 'customer.account.wishlist_title' | t }}</option>
+      <option
+        value="{{- routes.account_logout_url -}}">{{- 'customer.account.logout' | t -}}</option>
+    </select>
+    <div
+      class="w-3 h-auto rotate-180">{% render 'icon-drop-arrow' %}</div>
+  </div>
+</div>
+
+{%- comment -%} Desktop Nav {%- endcomment -%}
+<div
+  class="hidden lg:flex flex-col justify-start items-center w-full h-full gap-[8vh] max-w-xl mx-auto pt-[9vw]">
+  <h1
+    class="h4 text-brand-primary-100">Account</h1>
+  <ul
+    class="flex flex-col gap-6 pb-8 ml-0 text-sm list-none lg:py-0 lg:text-base text-dun">
+    <li>
+      <a
+        href="{{- routes.account_url -}}">
+        <span
+          class="{%- if template == 'customers/account' -%}text-brand-primary-100{%- endif -%}">Overview</span>
+      </a>
+    </li>
+    <li>
+      <a
+        href="{{- routes.account_addresses_url -}}">
+        <span
+          class="{%- if template == 'customers/addresses' -%}text-brand-primary-100{%- endif -%}">Addresses</span>
+      </a>
+    </li>
+    <li>
+      <a
+        href="/pages/swym-wishlist">
+        <span
+          class="">{{ 'customer.account.wishlist_title' | t }}</span>
+      </a>
+    </li>
+    <li>
+      <a
+        href="{{- routes.account_logout_url -}}">{{- 'customer.account.logout' | t -}}</a>
+    </li>
+  </ul>
+</div>

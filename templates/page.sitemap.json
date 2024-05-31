@@ -1,0 +1,13 @@
+{
+  "sections": {
+    "main": {
+      "type": "sitemap",
+      "settings": {
+        "show_title": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

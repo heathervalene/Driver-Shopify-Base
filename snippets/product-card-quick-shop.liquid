@@ -1,0 +1,75 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+PRODUCT CARD HORIZONTAL QUICK SHOP COMPONENT (Driver)
+----------------------------------------------------------------------------------------------------------------------
+
+This component renders a product card with variant picker and buy button.
+Currently used in the cart drawer and cart page upsell section and in the complementary products section on the PDP.
+
+*** The color option is hidden in the variant picker for this component.
+
+********************************************
+Supported variables
+********************************************
+
+* product: the product to render
+* wishlist: if true, the wishlist button will be rendered
+{%- endcomment -%}
+
+{%- capture product_form_id -%}product-form-{{ product.id }}-{{ product.handle }}-{{ section.id }}{%- endcapture -%}
+
+<quick-shop handle="{{ product.handle }}" form="{{ product_form_id }}" class="items-start pb-2 quickshop-product-card horizontal-product-card">
+  {%- if product.featured_media -%}
+    <a href="{{ product.url }}" class="horizontal-product-card__figure{% if wishlist %} relative{% endif %}" data-instant>
+      {%- if wishlist -%}
+        {%- comment -%} Render Wishlist heart icon only in complementary products on PDP {%- endcomment -%}
+        <!-- Swym Wishlist Plus EPI Button -->
+        <button
+          aria-label="Add to Wishlist"
+          data-with-epi="true"
+          style="width: 22px; height: 20px; z-index: 1;"
+          class="!absolute !right-2 !top-2 swym-button swym-add-to-wishlist-view-product product_{{product.id}}"
+          data-swaction="addToWishlist"
+          data-product-id="{{product.id | json}}"
+          data-variant-id="{{product.first_available_variant.id}}"
+          data-product-url="{{ shop.url }}{{ product.url }}">
+          {%- render 'heart-outline' %}
+        </button>
+      {%- endif -%}
+      
+      {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: loading: 'lazy', sizes: '300px', widths: '100,150,200,250,300,350,400,450,500', class: 'horizontal-product-card__image' -}}
+    </a>
+  {%- endif -%}
+
+  <div class="grid-flow-row pt-4 horizontal-product-card__info">
+    <div class="flex items-end justify-start w-full gap-5">
+      <a href="{{ product.url }}" class="font-serif text-sm product-title" data-instant>{{ product.title }}</a>
+      <div class="">
+      {%- render 'price-list', product: product, context: 'card' -%}
+      </div>
+    </div>
+
+    {%- render 'variant-picker',
+      product: product,
+      form_id: product_form_id,
+      update_url: false,
+      hide_sold_out_variants: false,
+      selector_style: 'block',
+      swatch_selector_style: 'swatch',
+      accordion: true,
+      vertical_dropdown: false,
+      additional_classes: 'p-1 border-0',
+      show_arrow: true,
+      open: true
+    -%}
+    
+    {%- render 'buy-buttons',
+      product: product,
+      form_id: product_form_id,
+      show_payment_button: false,
+      show_gift_card_recipient: false,
+      start_disabled: true,
+      additional_classes: '!border-0 tracking-wide underline-offset-2 underline !bg-transparent !text-black !p-0 mt-2 uppercase text-sm hover:!text-black hover:!bg-transparent'
+    -%}
+  </div>
+</quick-shop>

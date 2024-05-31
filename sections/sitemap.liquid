@@ -1,0 +1,75 @@
+<div class="sitemap__container">
+  <div class="sitemap__body">
+    <div class="rte">
+      
+      <div class="sitemap__title">
+        {%- if section.settings.show_title -%}
+          <h1 class="h2">{{- page.title -}}</h1>
+        {%- else -%}
+          <h1 class="h2">Sitemap</h1>
+        {%- endif -%}
+      </div>
+      
+      {%- if page.content != blank -%}
+        {{- page.content -}}
+      {%- endif -%}
+      <hr class="my-6">
+      <div class="flex gap-8 sitemap__list">
+        <div class="sitemap-column">
+          <h2 class="pb-4 h3">Collections</h2>
+          <div class="sitemap-list-item">
+            {% assign sorted_collections = collections | sort: 'title' %}
+            {% for collection in sorted_collections %}
+              {% assign is_hidden = collection.metafields.seo.hidden.value %}
+              {% if is_hidden != true %}
+                <a class="block mb-2 text-sm hover:underline w-fit" href="{{ collection.url }}">{{ collection.title }}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+        <div class="sitemap-column">
+          <h2 class="pb-4 h3">Pages</h2>
+          <div class="sitemap-list-item">
+            {%- paginate pages by 50 -%}
+              {%- for page in pages -%}
+                {% assign is_hidden = page.metafields.seo.hidden.value %}
+                {% if is_hidden != true %}
+                  <a class="block mb-2 text-sm hover:underline w-fit" href="{{ page.url }}">{{ page.title }}</a>
+                {% endif %}
+              {%- endfor -%}
+              {{ paginate | default_pagination: next: 'Older', previous: 'Newer' }} 
+            {%- endpaginate -%}
+          </div>
+        </div>
+        <div class="sitemap-column">
+          <h2 class="pb-4 h3">Articles</h2>
+          <div class="sitemap-list-item">
+            {% assign articles = articles | uniq | sort: "published_at" | reverse %} 
+            {% for article in blogs.blog.articles %}
+              {% assign is_hidden = article.metafields.seo.hidden.value %}
+              {% if is_hidden != true %}
+                <a class="block mb-2 text-sm hover:underline w-fit" href="{{ article.url }}">{{ article.title }}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Sitemap",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_title",
+      "label": "Show page title",
+      "default": true
+    }
+  ]
+}
+{% endschema %}

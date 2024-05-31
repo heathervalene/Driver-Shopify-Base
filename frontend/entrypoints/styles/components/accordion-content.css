@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+    accordion-content {
+        @apply block overflow-hidden transition-max-h;
+    }
+}

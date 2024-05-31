@@ -1,0 +1,32 @@
+{
+  "name": "driver-shopify-prestige",
+  "version": "1.0.0",
+  "description": "Shopify 2.0 theme using node, vite.js, Tailwind & Prestige",
+  "main": "index.js",
+  "scripts": {
+    "dev": "run-p -sr dev:shopify dev:vite",
+    "dev:shopify": "shopify theme dev --store $npm_package_config_store",
+    "dev:vite": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "Driver Digital",
+  "license": "ISC",
+  "devDependencies": {
+    "@by-association-only/vite-plugin-shopify-clean": "^1.1.0",
+    "autoprefixer": "^10.4.19",
+    "cross-env": "^7.0.3",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "vite": "^4.5.3",
+    "vite-plugin-shopify": "^2.2.1"
+  },
+  "config": {
+    "store": "avara-boutique.myshopify.com"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "@splidejs/splide-extension-grid": "^0.4.1"
+  }
+}

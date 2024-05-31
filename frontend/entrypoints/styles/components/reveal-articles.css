@@ -1,0 +1,14 @@
+/* Reveal-articles CSS, used for press items on Press page on mobile only */
+
+.hidden-block {
+  display: none;
+}
+
+@media screen and (min-width: 700px) {
+  .hidden-block {
+    display: flex; 
+  }
+  #showMoreBtn {
+    display: none !important;
+  }
+}

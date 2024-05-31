@@ -1,0 +1,39 @@
+#cart-drawer {
+  max-width: min(92vw, 30.625rem);
+}
+#cart-drawer::part(header),
+#cart-drawer::part(footer) {
+  border-block-end: 0;
+  border-block-start: 0;
+}
+#cart-drawer::part(footer) {
+  padding-block: 1.5rem;
+}
+.cart-drawer__order-note {
+  padding-block: 1.5rem;
+}
+.cart-drawer__order-note textarea {
+  border-color: theme(colors.timberwolf);
+}
+.cart-drawer__footer {
+  gap: 0.75rem;
+}
+#cart-drawer .free-shipping-bar {
+  padding-inline: 1.5rem;
+  padding-block-end: 1.5rem;
+}
+.line-item-hr {
+  margin-inline: -2rem;
+}
+.line-item-hr:last-child {
+  display: none;
+}
+.cart-drawer__complementary-products {
+  border-bottom-width: 1px;
+}
+.shopify-section--main-cart cart-note label {
+  @apply font-medium tracking-widest uppercase text-xxs;
+}
+.discount-badge {
+  padding: .35rem .5rem;
+}

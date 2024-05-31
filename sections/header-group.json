@@ -1,0 +1,272 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message-1": {
+          "type": "message",
+          "settings": {
+            "text": "30% off select styles"
+          }
+        },
+        "message_VAwepx": {
+          "type": "message",
+          "settings": {
+            "text": "Size guide"
+          }
+        },
+        "message_wB9CCn": {
+          "type": "message",
+          "settings": {
+            "text": "Sign up for 15% off your first order"
+          }
+        }
+      },
+      "block_order": [
+        "message-1",
+        "message_VAwepx",
+        "message_wB9CCn"
+      ],
+      "settings": {
+        "color_scheme": "scheme-022bd395-5f1c-47d5-9c98-1d5fc773da93",
+        "enable_sticky": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "desktop_font_size": 12,
+        "mobile_font_size": 12
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "mega_menu_QM8YyR": {
+          "type": "mega_menu",
+          "settings": {
+            "heading": "New",
+            "menu_item": "New",
+            "background_color": "#ffffff",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/1_fd35642e-c133-4f37-87c9-c561f99644e9.png",
+            "image_1_heading": "Dresses",
+            "image_1_text": "Subheading goes here.",
+            "image_1_link": "",
+            "image_2": "shopify:\/\/shop_images\/Mega_menu_portrait_1.png",
+            "image_2_landscape": false,
+            "image_2_heading": "Featured Collection Title",
+            "image_2_text": "Subheading goes here.",
+            "image_2_link": ""
+          }
+        },
+        "mega_menu_KbqAmJ": {
+          "type": "mega_menu",
+          "settings": {
+            "heading": "Featured",
+            "menu_item": "Featured",
+            "background_color": "#ffffff",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/Avara-menu_Featured1.jpg",
+            "image_1_heading": "Featured Collection Title",
+            "image_1_text": "Subheading goes here.",
+            "image_1_link": "",
+            "image_2": "shopify:\/\/shop_images\/2_19adc5d9-2c7b-4223-bcd9-de2beacc37d6.png",
+            "image_2_landscape": false,
+            "image_2_heading": "Emily's Edit",
+            "image_2_text": "Subheading goes here.",
+            "image_2_link": ""
+          }
+        },
+        "mega_menu_jamfdx": {
+          "type": "mega_menu",
+          "settings": {
+            "heading": "Tops",
+            "menu_item": "Tops",
+            "background_color": "#ffffff",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/3_4d4ceccd-277e-422d-bb8a-71e2570ff43d.png",
+            "image_1_heading": "Avara Exclusives",
+            "image_1_text": "Subheading goes here.",
+            "image_1_link": "",
+            "image_2": "shopify:\/\/shop_images\/Avara-menu_Tops2.jpg",
+            "image_2_landscape": true,
+            "image_2_heading": "Featured Collection Title",
+            "image_2_text": "Subheading goes here.",
+            "image_2_link": ""
+          }
+        },
+        "mega_menu_hL6cYx": {
+          "type": "mega_menu",
+          "settings": {
+            "heading": "Dresses",
+            "menu_item": "Dresses",
+            "background_color": "#ffffff",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/4_5c1d879e-c2dc-415d-9fcd-28eee393c5c9.png",
+            "image_1_heading": "Featured Collection Title",
+            "image_1_text": "Subheading goes here.",
+            "image_1_link": "",
+            "image_2": "shopify:\/\/shop_images\/Avara-menu_Dresses2.jpg",
+            "image_2_landscape": false,
+            "image_2_heading": "Featured Collection Title",
+            "image_2_text": "Subheading goes here.",
+            "image_2_link": ""
+          }
+        },
+        "mega_menu_MqmEL3": {
+          "type": "mega_menu",
+          "settings": {
+            "heading": "",
+            "menu_item": "",
+            "background_color": "#ffffff",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_landscape": false,
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        },
+        "mega_menu_mxRYcm": {
+          "type": "mega_menu",
+          "settings": {
+            "heading": "",
+            "menu_item": "",
+            "background_color": "#ffffff",
+            "images_position": "right",
+            "image_1_heading": "",
+            "image_1_text": "",
+            "image_1_link": "",
+            "image_2_landscape": false,
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        },
+        "mega_menu_MbjgxB": {
+          "type": "mega_menu",
+          "settings": {
+            "heading": "Clothing",
+            "menu_item": "Clothing",
+            "background_color": "#ffffff",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/1_3caf7902-86a6-4ed3-9772-b5649ef58db5.png",
+            "image_1_heading": "Featured Collection Title",
+            "image_1_text": "Subheading goes here.",
+            "image_1_link": "",
+            "image_2": "shopify:\/\/shop_images\/Avara-menu_New2.jpg",
+            "image_2_landscape": false,
+            "image_2_heading": "Featured Collection Title",
+            "image_2_text": "Subheading goes here.",
+            "image_2_link": ""
+          }
+        },
+        "mega_menu_nxf9VT": {
+          "type": "mega_menu",
+          "settings": {
+            "heading": "Accessories",
+            "menu_item": "Accessories",
+            "background_color": "#ffffff",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/5_8dac6630-3055-4ee6-930b-67e20f4650f8.png",
+            "image_1_heading": "Featured Collection Title",
+            "image_1_text": "Subheading goes here.",
+            "image_1_link": "",
+            "image_2": "shopify:\/\/shop_images\/Avara-menu_Accessories2.jpg",
+            "image_2_landscape": true,
+            "image_2_heading": "Featured Collection Title",
+            "image_2_text": "Subheading goes here.",
+            "image_2_link": ""
+          }
+        },
+        "mega_menu_mHUKDD": {
+          "type": "mega_menu",
+          "settings": {
+            "heading": "Shoes",
+            "menu_item": "Shoes",
+            "background_color": "#ffffff",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/Avara-menu_Shoes1.jpg",
+            "image_1_heading": "Featured Collection Title",
+            "image_1_text": "Subheading goes here.",
+            "image_1_link": "",
+            "image_2": "shopify:\/\/shop_images\/Avara-menu_Shoes2.jpg",
+            "image_2_landscape": true,
+            "image_2_heading": "Featured Collection Title",
+            "image_2_text": "Subheading goes here.",
+            "image_2_link": ""
+          }
+        },
+        "mega_menu_rPgM7t": {
+          "type": "mega_menu",
+          "settings": {
+            "heading": "Sale",
+            "menu_item": "Sale",
+            "background_color": "#fceff3",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/6_9c7d561c-d668-4e35-8b46-dce9e4a2aac6.png",
+            "image_1_heading": "Featured Collection Title",
+            "image_1_text": "Subheading goes here.",
+            "image_1_link": "",
+            "image_2": "shopify:\/\/shop_images\/Mega_menu_portrait.png",
+            "image_2_landscape": false,
+            "image_2_heading": "Featured Collection Title",
+            "image_2_text": "Subheading goes here.",
+            "image_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_QM8YyR",
+        "mega_menu_KbqAmJ",
+        "mega_menu_jamfdx",
+        "mega_menu_hL6cYx",
+        "mega_menu_MqmEL3",
+        "mega_menu_mxRYcm",
+        "mega_menu_MbjgxB",
+        "mega_menu_nxf9VT",
+        "mega_menu_mHUKDD",
+        "mega_menu_rPgM7t"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "enable_sticky": true,
+        "show_separation_border": true,
+        "reduce_padding": true,
+        "logo": "shopify:\/\/shop_images\/Avara_Logo.svg",
+        "logo_max_width": 95,
+        "logo_mobile_max_width": 90,
+        "menu": "driver-main-menu",
+        "sidebar_menu": "",
+        "menu_open_trigger": "hover",
+        "enable_search": true,
+        "sidebar_color_scheme": "",
+        "sidebar_text_font": "heading",
+        "sidebar_show_dividers": true,
+        "sidebar_show_social": true,
+        "layout": "logo_left_navigation_center",
+        "show_icons": true,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": false,
+        "show_locale_selector": false,
+        "transparent_header_text_color": "#ffffff"
+      }
+    },
+    "linklist-horizontal": {
+      "type": "linklist-horizontal",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "menu": "driver-main-menu",
+        "mobile_only": true
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "linklist-horizontal"
+  ]
+}

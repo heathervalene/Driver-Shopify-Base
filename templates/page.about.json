@@ -1,0 +1,673 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_B9ddQV": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_terjiC": {
+          "type": "heading",
+          "settings": {
+            "text": "<em>Our<\/em> STORY",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_terjiC"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/fcef3e8b16eff2ecf60057c2643b88bd.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/fcef3e8b16eff2ecf60057c2643b88bd-2.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "image_with_text_meiehe": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_z3WBmR": {
+          "type": "heading",
+          "settings": {
+            "text": "<em>Compliments?<\/em>",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_CHkQWi": {
+          "type": "heading",
+          "settings": {
+            "text": "<em> <\/em>YES PLEASE.",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_B38gQa": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Avara was founded in 2018 by Emily Wickard, who after spending 20 years in Finance, grew tired of the corporate world. As a mother of 2 young kids, she decided to take a leap of faith and start her own clothing brand. Avara is named after Emily’s daughter, Ava, who she hopes to inspire to take risks in life. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_z3WBmR",
+        "heading_CHkQWi",
+        "richtext_B38gQa"
+      ],
+      "custom_css": [
+        "@media (min-width: 1112px) {.prose div > p {padding-top: 20px; padding-inline-end: 5%; }}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "contain": true,
+        "contain_mobile": true,
+        "align_center": false,
+        "mobile_reverse": true,
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/Image-12.png",
+        "mobile_image": "shopify:\/\/shop_images\/Image-12.png",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": false
+      }
+    },
+    "multi_column_CTGnxF": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_Da96AE": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/Who_Icon_17fed9f0-63d1-4d0a-86cc-47f301843960.png",
+            "title": "<h1><em>Who<\/em> WE ARE<\/h1>",
+            "content": "<p>Avara is the go-to brand for compliment-worthy clothing that allows women to celebrate all of life's moments with confidence and joy.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_nhNmj9": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "",
+            "image": "shopify:\/\/shop_images\/What_Icon_0db9c03b-84e6-4b55-b750-f58902d2d559.png",
+            "title": "<h1><em>What<\/em> WE DO<\/h1>",
+            "content": "<p>Avara creates and curates a line of women's clothing and accessories that come with compliments guaranteed! Our goal is to create a sense of community through the shared love of fun and accessible fashion that will inspire women to feel authentically confident.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_Da96AE",
+        "image_with_text_nhNmj9"
+      ],
+      "custom_css": [
+        ".multi-column__item {display: flex; flex-direction: column; align-items: center;}",
+        ".multi-column {row-gap: 3rem;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-022bd395-5f1c-47d5-9c98-1d5fc773da93",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "content_width": "sm",
+        "columns_per_row": 2,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "spacing": "lg",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "media_grid_PadfD8": {
+      "type": "media-grid",
+      "blocks": {
+        "image_8DD9dp": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/1a460fe6ad550c6563326d4bc673cbaa.png",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_wmwkFT": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/ff730f9aad480c7a14915b228db73664_6a082d95-1084-46ea-b6bc-c7c552c135fb.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_g4kfLW": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/3028085070ae933b3ba9d76e31819ab9_34c4c4e4-67c4-4707-b780-12e541edcf80.png",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_je6Q8d": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify:\/\/shop_images\/227591efc47c90ea35952ce7a19f72d8.jpg",
+            "column_count": "3",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3bdq9Q": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify:\/\/shop_images\/c8a0362f6a64f9711ce4bf36c718406f.png",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_cUKMJY": {
+          "type": "image",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "image": "shopify:\/\/shop_images\/5276814d910cded45933a37c0620ed38_3a3f4e0f-1f3a-4bc1-b047-a7b0e6cc2793.png",
+            "column_count": "6",
+            "row_count": 1,
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "place-self-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_8DD9dp",
+        "image_wmwkFT",
+        "image_g4kfLW",
+        "image_je6Q8d",
+        "image_3bdq9Q",
+        "image_cUKMJY"
+      ],
+      "custom_css": [
+        ".section-stack {gap: 4rem;}",
+        "@media screen and (max-width: 699px) {.media-grid__item:nth-child(-n + 4) {--media-grid-item-row-span: 0 !important; } .section-stack {gap: 2.5rem; }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "full_height_image": false,
+        "desktop_row_height": 320,
+        "mobile_row_height": 210,
+        "section_width": "lg",
+        "spacing": "sm",
+        "subheading": "",
+        "title": "<em>who is an<\/em> AVARAISTA?",
+        "content": ""
+      }
+    },
+    "rich_text_cABFpp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9yMHfC": {
+          "type": "heading",
+          "settings": {
+            "text": "An Avaraista enjoys fashion, but is often too busy with life to spend it shopping. She considers Avara her “one stop shop” for on-trend and easy-to-wear pieces that always bring the compliments.",
+            "heading_tag": "h4"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9yMHfC"
+      ],
+      "custom_css": [
+        ".section-spacing {padding-block-start: 0;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_V7UzwN": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hjfXPN": {
+          "type": "heading",
+          "settings": {
+            "text": "<em>Women Owned. <\/em>WOMEN LED.",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_wgtEQf": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Since its humble beginnings in Emily's home, Avara has grown exponentially, with \"Avaraistas\" in every state. In 2022 and 2023, Avara was named to the Inc 5000 fastest growing privately held companies in the country. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hjfXPN",
+        "richtext_wgtEQf"
+      ],
+      "custom_css": [
+        "@media (min-width: 1000px) {.prose div > p {padding-top: 20px; padding-inline-end: 5%; }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "contain": true,
+        "contain_mobile": true,
+        "align_center": false,
+        "mobile_reverse": true,
+        "separate_section_with_border": false,
+        "image": "shopify:\/\/shop_images\/Image-13.png",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_KpxgEK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6zmq6r": {
+          "type": "heading",
+          "settings": {
+            "text": "<em>“It takes years of blood, sweat and tears to become an overnight success.”<\/em>",
+            "heading_tag": "h2"
+          }
+        },
+        "liquid_4WHtjR": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.name {\n  font-family: \"Avenir Next\";\n  font-size: 12px;\n  font-style: normal;\n  font-weight: 400;\n  line-height: 16px;\n  letter-spacing: 2px;\n  text-transform: uppercase;\n  color: #d8315b;\n}\n<\/style>\n<p class=\"name\">-EMILY<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6zmq6r",
+        "liquid_4WHtjR"
+      ],
+      "custom_css": [
+        ".section-spacing {padding-block-start: 0;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "custom_liquid_YeYpy4": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".container {display: flex; justify-content: center;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0011\/3849\/1490\/files\/Polygon_1.svg?v=1715076443\">",
+        "text_alignment": "center"
+      }
+    },
+    "rich_text_HG8zdP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_czBbpa": {
+          "type": "heading",
+          "settings": {
+            "text": "<em>The Journey<\/em>: AVARA.",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_akWcFy": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Since its humble beginnings in Emily's home, Avara has grown exponentially, with \"Avaraistas\" in every state. In 2022 and 2023, Avara was named to the Inc 5000 fastest growing privately held companies in the country. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_czBbpa",
+        "richtext_akWcFy"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
+    "avara_timeline_K7NFQR": {
+      "type": "avara-timeline",
+      "blocks": {
+        "image_with_text_g3DPAw": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "#fceff3",
+            "image": "shopify:\/\/shop_images\/Image-16.png",
+            "image-position": "right",
+            "subheading": "our beginning",
+            "title": "November 2017",
+            "content": "<p>Emily walks away from a 20 year career in Corporate Finance. With no prior experience, she googles \"how to start an online boutique\" at her kitchen table.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_iz4cAb": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "#fceff3",
+            "image": "shopify:\/\/shop_images\/placeholder_image.png",
+            "image-position": "left",
+            "subheading": "our beginning",
+            "title": "March 2018",
+            "content": "<p>Emily launches Avara and starts selling pieces in a local Facebook group - her porch was the hot pick-up spot!<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_Di6xrL": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "#fceff3",
+            "image": "shopify:\/\/shop_images\/Image-4.jpg",
+            "image-position": "right",
+            "subheading": "Expansion",
+            "title": "August 2019",
+            "content": "<p>SHOPAVARA.COM is launched, enabling Avara to start selling outside of Dallas.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_TRh3tz": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "#fceff3",
+            "image": "shopify:\/\/shop_images\/placeholder_image.png",
+            "image-position": "left",
+            "subheading": "Loungewear",
+            "title": "March 2020",
+            "content": "<p>COVID hits. Avara pivots to selling loungewear and business BOOMS!<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_YTMa9q": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "#fceff3",
+            "image": "shopify:\/\/shop_images\/Image-5.jpg",
+            "image-position": "right",
+            "subheading": "open for business",
+            "title": "July 2020",
+            "content": "<p>In the middle of a pandemic, Avara opens its first brick and mortar store in Dallas.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_hthd4z": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "#fceff3",
+            "image": "shopify:\/\/shop_images\/Image-17.png",
+            "image-position": "left",
+            "subheading": "Avara Exclusive",
+            "title": "February 2021",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_eNzM9c": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "#fceff3",
+            "image": "shopify:\/\/shop_images\/placeholder_image.png",
+            "image-position": "right",
+            "subheading": "growth",
+            "title": "August 2022",
+            "content": "<p>Avara is named to the Inc.5000 list of fastest growing companies in the country- #406 on the list and #3 in women's retail.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_kCgwHn": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "#fceff3",
+            "image": "shopify:\/\/shop_images\/Image-18.png",
+            "image-position": "left",
+            "subheading": "growth",
+            "title": "August 2023",
+            "content": "<p>Avara is named to the Inc.5000 list of fastest growing companies in the country- #406 on the list and #3 in women's retail.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_6GdMji": {
+          "type": "image_with_text",
+          "settings": {
+            "column-color": "#fceff3",
+            "image": "shopify:\/\/shop_images\/Screenshot_2024-05-09_at_12.39.44_PM.png",
+            "image-position": "right",
+            "subheading": "Today Show",
+            "title": "December 2023",
+            "content": "<p>Avara is featured on the Today Show in Hoda and Jenna’s Best Dressed Guest segment.<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_g3DPAw",
+        "image_with_text_iz4cAb",
+        "image_with_text_Di6xrL",
+        "image_with_text_TRh3tz",
+        "image_with_text_YTMa9q",
+        "image_with_text_hthd4z",
+        "image_with_text_eNzM9c",
+        "image_with_text_kCgwHn",
+        "image_with_text_6GdMji"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "columns_per_row": 2,
+        "stack_on_mobile": true,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "testimonials_7TErpB": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_tiV8my": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>ACHIEVE: To be the best each and every day in order to differentiate Avara from our competitors and support a culture of high performance, all while building an unrivaled customer experience and making things right, every time.<\/p>",
+            "content_link": "",
+            "image": "shopify:\/\/shop_images\/Achieve-2.svg",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "testimonial_Qycxmh": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>BE BOLD: We will continue to be bold, in both our product development, as well as our delivery channels and strategy.<\/p>",
+            "content_link": "",
+            "image": "shopify:\/\/shop_images\/Values_Being-Bold.svg",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "testimonial_dhpwFL": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>COLLABORATION: A focus on one team, oriented around respect and trust to achieve our shared goals and to be supportive of each other across the brand.<\/p>",
+            "content_link": "",
+            "image": "shopify:\/\/shop_images\/Collaboration-2.svg",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "testimonial_QNHezy": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>POSITIVITY: Lead and participate in building and supporting an uplifting and fun culture across the brand and throughout the Avaraista community.<\/p>",
+            "content_link": "",
+            "image": "shopify:\/\/shop_images\/Positivity-2.svg",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_tiV8my",
+        "testimonial_Qycxmh",
+        "testimonial_dhpwFL",
+        "testimonial_QNHezy"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "auto_rotate_between_testimonials": false,
+        "cycle_speed": 5,
+        "font_size_factor": 1,
+        "subheading": "",
+        "title": "<em>Our<\/em> CORE VALUES",
+        "content": ""
+      }
+    },
+    "featured_collections_iVPeKC": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_ihWDb6": {
+          "type": "collection",
+          "settings": {
+            "collection": "girls-trip",
+            "products_count": 8,
+            "title": "<em>Emily's<\/em> PICKS",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_ihWDb6"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_B9ddQV",
+    "image_with_text_meiehe",
+    "multi_column_CTGnxF",
+    "media_grid_PadfD8",
+    "rich_text_cABFpp",
+    "image_with_text_V7UzwN",
+    "rich_text_KpxgEK",
+    "custom_liquid_YeYpy4",
+    "rich_text_HG8zdP",
+    "avara_timeline_K7NFQR",
+    "testimonials_7TErpB",
+    "featured_collections_iVPeKC"
+  ]
+}

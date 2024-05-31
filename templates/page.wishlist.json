@@ -1,0 +1,57 @@
+{
+  "sections": {
+    "swym-wishlist": {
+      "type": "wishlist",
+      "settings": {
+      }
+    },
+    "custom_liquid_hWaFqJ": {
+      "type": "custom-liquid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "scheme-d8f16f17-06ef-46e8-80f1-45a63f469a1f",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"container container--lg\"><hr class=\"my-6\"><\/div>",
+        "text_alignment": "center"
+      }
+    },
+    "1714571596a839f0ae": {
+      "type": "apps",
+      "blocks": {
+        "wishlist_plus_sfl_block_hmEynk": {
+          "type": "shopify:\/\/apps\/wishlist-plus\/blocks\/sfl-block\/80c3b1fc-3a8f-407e-8367-ffdeebb8b612",
+          "settings": {
+            "swym-sfl-list-heading": "Saved for later",
+            "swym-sfl-move-all-to-cart-color": "#ffffff",
+            "swym-sfl-add-to-cart-btn-color": "#1c1c1c",
+            "swym-sfl-move-all-to-cart-text-color": "#202223",
+            "swym-sfl-add-to-cart-btn-text": "ADD TO CART",
+            "swym-sfl-move-all-to-cart-text": "MOVE ALL TO CART",
+            "swym-sfl-cart-view": "Grid"
+          }
+        }
+      },
+      "block_order": [
+        "wishlist_plus_sfl_block_hmEynk"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_scheme": "scheme-d8f16f17-06ef-46e8-80f1-45a63f469a1f",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    }
+  },
+  "order": [
+    "swym-wishlist",
+    "custom_liquid_hWaFqJ",
+    "1714571596a839f0ae"
+  ]
+}

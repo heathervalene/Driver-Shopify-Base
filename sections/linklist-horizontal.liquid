@@ -1,0 +1,67 @@
+{%- unless template contains 'product' or template contains 'collection' -%}
+  {% style %}
+    .shopify-section--linklist-horizontal nav a:last-of-type {
+      padding-right: 1rem;
+    }
+    .shopify-section--linklist-horizontal .container {
+      padding-inline-start: var(--container-gutter);
+      padding-inline-end: var(--container-gutter);
+      scroll-bar-width: none;
+    }
+  {% endstyle %}
+
+  {%- assign color_scheme_hash = section.settings.color_scheme.settings.background_gradient | default: section.settings.color_scheme.settings.background | md5 -%}
+
+  <div class="block w-full color-scheme color-scheme--{{ section.settings.color_scheme.id }} color-scheme--bg-{{ color_scheme_hash }} {% if section.settings.mobile_only %} lg:hidden{% endif %}">
+    <div class="container py-3 mx-auto scroll-area bleed">
+      <nav class="flex gap-9 md:justify-center">
+        {% assign menu = linklists[section.settings.menu] %}
+        {% if menu %}
+          <!-- Display only top-level links, ignoring any child links -->
+          {% for link in menu.links %}
+            <a href="{{ link.url }}" class="h5 whitespace-nowrap">
+              {{ link.title }}
+            </a>
+          {% endfor %}
+        {% else %}
+          <p class="h5">Menu not found.</p>
+        {% endif %}
+      </nav>
+    </div>
+  </div>
+{%- endunless -%}
+
+{% schema %}
+{
+  "name": "Horizontal Linklist",
+  "class": "shopify-section--linklist-horizontal",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:global.colors.scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Menu",
+      "default": "main-menu",
+      "info": "Select the menu to display."
+    },
+    {
+      "type": "checkbox",
+      "id": "mobile_only",
+      "label": "Mobile only",
+      "default": true,
+      "info": "Display this section on mobile only."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Horizontal Linklist"
+    }
+  ]
+}
+{% endschema %}
