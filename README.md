@@ -1,7 +1,6 @@
-# Avara
+# Tailwind / Vite Shopify CLI Theme
 Shopify 2.0 theme using node, Vite, Tailwind, Prestige, and custom components
 
-## Tailwind / Vite Shopify CLI Theme
 This is a custom Shopify 2.0 theme using [Prestige 9.1.0](https://themes.shopify.com/themes/prestige/styles/allure#ReleaseNotes), [Tailwind CSS](https://tailwindcss.com/) & [Vite](https://vitejs.dev/).
 
 ## Requirements
