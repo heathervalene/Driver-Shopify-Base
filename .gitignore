@@ -12,6 +12,6 @@ Thumbs.db
 ######################
 node_modules
 package-lock.json
-/assets
+
 /snippets/vite.liquid
 /public

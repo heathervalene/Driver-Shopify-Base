@@ -234,7 +234,7 @@
         "heading_G8LWYh": {
           "type": "heading",
           "settings": {
-            "text": "<em>shop<\/em> EMILY'S EDIT",
+            "text": "<em>shop<\/em> FOUNDER'S EDIT",
             "heading_tag": "h4"
           }
         }
@@ -248,38 +248,6 @@
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
-      }
-    },
-    "171337783673af30ba": {
-      "type": "apps",
-      "blocks": {
-        "firework_virtual_store_firework_embed_NECnDR": {
-          "type": "shopify:\/\/apps\/firework-virtual-store\/blocks\/firework-embed\/347a2e4c-f5cb-410d-8354-490d1e80558c",
-          "settings": {
-            "channel": "avara",
-            "playlist": "oy9pOo",
-            "layout": "grid",
-            "embedtitle": "",
-            "titlealignment": "center",
-            "embedtitlesize": 16,
-            "hashtag": "",
-            "size": "large",
-            "player_placement": "bottom-right",
-            "pip": true
-          }
-        }
-      },
-      "block_order": [
-        "firework_virtual_store_firework_embed_NECnDR"
-      ],
-      "custom_css": [
-        "#section-firework-embed {--fw-font-family: orpheuspro; --fw-thumbnail-font-weight: 400;}"
-      ],
-      "settings": {
-        "color_scheme": "scheme-2",
-        "separate_section_with_border": false,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": false
       }
     },
     "60ca5360-df60-4304-ac56-127576c86fac": {
@@ -321,8 +289,8 @@
       "settings": {
         "color_scheme": "scheme-4",
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/Avara_denim.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Avara_denim_mobile.jpg",
+        "image": "",
+        "mobile_image": "",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": false,
@@ -339,7 +307,7 @@
         "look-1": {
           "type": "look",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Avara_maureendress-catebag_cropped.jpg",
+            "image": "",
             "hot_spots_background": "#ffffff",
             "product_1": "maureen-dress",
             "product_1_horizontal_position": 52,
@@ -425,10 +393,10 @@
         "media_mobile_alignment_offset": 26,
         "text_alignment": "center",
         "subheading": "Collaboration",
-        "title": "<em>Hello Happiness<\/em> x Avara",
+        "title": "<em>Hello Happiness",
         "content": "<p>A statement story featuring dresses for all occasions, sweaters to take you to the next level, blouses for everyday style, and of course, all the accessories for one perfect ensemble.<\/p>",
         "button_1_text": "Discover",
-        "button_1_link": "shopify:\/\/collections\/hello-happiness",
+        "button_1_link": "",
         "button_1_style": "outline",
         "button_2_text": "",
         "button_2_link": "",
@@ -551,8 +519,8 @@
       "settings": {
         "color_scheme": "scheme-4",
         "separate_section_with_border": false,
-        "image": "shopify:\/\/shop_images\/Avara-countdown.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Avara-countdown-mobile2.jpg",
+        "image": "",
+        "mobile_image": "",
         "image_size": "auto",
         "subheading": "Limited Time Only",
         "title": "<em>up to <\/em>40% OFF",
@@ -621,7 +589,7 @@
         "align_center": true,
         "mobile_reverse": false,
         "separate_section_with_border": false,
-        "image": "shopify:\/\/shop_images\/Avara_Emily.jpg",
+        "image": "",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
@@ -635,7 +603,7 @@
           "type": "testimonial",
           "settings": {
             "content": "<p>\"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”<\/p>",
-            "content_link": "https:\/\/www.today.com\/video\/looking-for-something-to-wear-to-holiday-parties-try-these-looks-199320645670",
+            "content_link": "",
             "image": "shopify:\/\/shop_images\/Today.svg",
             "logo_max_width": 85,
             "logo_mobile_max_width": 85,
@@ -645,8 +613,8 @@
         "template--20265440969004__9e4e8d40-6c71-4d4b-ba57-948aac47b43a-testimonial-2": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>\"Stepping into Avara’s Dallas headquarters is like walking into a Barbie dream house converted into an office.\"<\/p>",
-            "content_link": "https:\/\/www.dallasnews.com\/business\/retail\/2023\/10\/03\/emily-wickard-left-corporate-finance-behind-now-she-owns-a-fast-growing-dallas-boutique\/",
+            "content": "",
+            "content_link": "",
             "image": "shopify:\/\/shop_images\/The_Dallas_Morning_News_Logo.svg",
             "logo_max_width": 210,
             "logo_mobile_max_width": 170,
@@ -657,7 +625,7 @@
           "type": "testimonial",
           "settings": {
             "content": "<p>\"Fun and easy shopping for busy women with colorful, chic and affordable pieces from their own line and favorite brands.\"<\/p>",
-            "content_link": "https:\/\/www.inc.com\/profile\/shop-avara",
+            "content_link": "",
             "image": "shopify:\/\/shop_images\/inc_500.svg",
             "logo_max_width": 85,
             "logo_mobile_max_width": 85,
@@ -696,7 +664,7 @@
         "heading_RXCLJG": {
           "type": "heading",
           "settings": {
-            "text": "@shop_avara",
+            "text": "@shop",
             "heading_tag": "h3"
           }
         }
@@ -751,7 +719,6 @@
     "featured-collections",
     "collection-list",
     "90de9ae2-bbc9-4330-8baa-84128b023703",
-    "171337783673af30ba",
     "60ca5360-df60-4304-ac56-127576c86fac",
     "shop-the-look",
     "multiple_media_with_text_znYxec",

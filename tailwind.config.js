@@ -130,9 +130,9 @@ module.exports = {
         'brand-tertiary-100': '#EDECEB', /* light gray - lines and dividers */
         'brand-tertiary-200': '#868484', /* dark gray */
         /* Brand colors specified in Figma */
-        'frenchrose': '#FC5290', /* Avara French Rose - dark pink */
+        'frenchrose': '#FC5290', /* French Rose - dark pink */
         'mimipink': '#FFD6E2', /* Mimi Pink - buttons, etc. */
-        'avarapink': '#FDC3D9', /* Avara Brand pink */
+        'brandpink': '#FDC3D9', /* Brand pink */
         'blush': '#FCEFF3', /* Blush - lightest pink */
         'cerise': '#D8315B', /* Cerise - cherry red */
         'dun': '#B1A7A0', /* Dun - dark tan */

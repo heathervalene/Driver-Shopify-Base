@@ -48,7 +48,7 @@ Supported variables
           {%- if collection.metafields.driver.category_hierarchy_top == true or collection.handle == 'all' -%}
             {%- unless filter.param_name == 'filter.p.product_type'
               or filter.param_name contains 'filter.v.option' 
-              or filter.param_name == 'filter.p.m.driver.filter_avara_exclusives'-%}
+              or filter.param_name == 'filter.p.m.driver.filter_exclusives'-%}
               hidden
             {%- endunless -%}
 

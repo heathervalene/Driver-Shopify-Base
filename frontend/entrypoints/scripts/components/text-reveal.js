@@ -55,7 +55,7 @@ export class TextReveal extends HTMLElement {
             // Use commented code for a richtext metafield - active code is for multiline text
         // const regex = /<div class="metafield-rich_text_field">([\s\S]*?)<\/div>/g;
         // this.originalText = this.originalText.replace(regex, '$1');
-            const textWithExtraBrTags = this.originalText.replace(/<br\s*\/?>/g, '<br><br>'); // Special fix for Avara formatting
+            const textWithExtraBrTags = this.originalText.replace(/<br\s*\/?>/g, '<br><br>'); // Special fix for client-specific formatting
             const textWithoutPTags = textWithExtraBrTags.replace(/<\/?p[^>]*>/g, ' ');
             const words = textWithoutPTags.split(/\s+/); // Split by any whitespace
             const visibleText = words.slice(0, this.truncateValue).join(' ');

@@ -705,8 +705,8 @@
       {
         "type": "image_picker",
         "id": "special_badge",
-        "label": "Avara Exclusive Badge",
-        "info": "Displays on product cards for products with the 'Avara Exclusive' tag or metafield setting (.svg preferred)."
+        "label": "Exclusive Badge",
+        "info": "Displays on product cards for products with the 'Exclusive' tag or metafield setting (.svg preferred)."
       }
     ]
   },

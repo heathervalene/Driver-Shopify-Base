@@ -58,7 +58,7 @@
         "richtext_B38gQa": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Avara was founded in 2018 by Emily Wickard, who after spending 20 years in Finance, grew tired of the corporate world. As a mother of 2 young kids, she decided to take a leap of faith and start her own clothing brand. Avara is named after Emily’s daughter, Ava, who she hopes to inspire to take risks in life. <\/p>"
+            "content": ""
           }
         }
       },
@@ -94,7 +94,7 @@
             "column-color": "",
             "image": "shopify:\/\/shop_images\/Who_Icon_17fed9f0-63d1-4d0a-86cc-47f301843960.png",
             "title": "<h1><em>Who<\/em> WE ARE<\/h1>",
-            "content": "<p>Avara is the go-to brand for compliment-worthy clothing that allows women to celebrate all of life's moments with confidence and joy.<\/p>",
+            "content": "",
             "link_url": "",
             "link_text": ""
           }
@@ -105,7 +105,7 @@
             "column-color": "",
             "image": "shopify:\/\/shop_images\/What_Icon_0db9c03b-84e6-4b55-b750-f58902d2d559.png",
             "title": "<h1><em>What<\/em> WE DO<\/h1>",
-            "content": "<p>Avara creates and curates a line of women's clothing and accessories that come with compliments guaranteed! Our goal is to create a sense of community through the shared love of fun and accessible fashion that will inspire women to feel authentically confident.<\/p>",
+            "content": "",
             "link_url": "",
             "link_text": ""
           }
@@ -268,7 +268,7 @@
         "section_width": "lg",
         "spacing": "sm",
         "subheading": "",
-        "title": "<em>who is an<\/em> AVARAISTA?",
+        "title": "",
         "content": ""
       }
     },
@@ -278,7 +278,7 @@
         "heading_9yMHfC": {
           "type": "heading",
           "settings": {
-            "text": "An Avaraista enjoys fashion, but is often too busy with life to spend it shopping. She considers Avara her “one stop shop” for on-trend and easy-to-wear pieces that always bring the compliments.",
+            "text": "",
             "heading_tag": "h4"
           }
         }
@@ -310,7 +310,7 @@
         "richtext_wgtEQf": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Since its humble beginnings in Emily's home, Avara has grown exponentially, with \"Avaraistas\" in every state. In 2022 and 2023, Avara was named to the Inc 5000 fastest growing privately held companies in the country. <\/p>"
+            "content": ""
           }
         }
       },
@@ -348,7 +348,7 @@
         "liquid_4WHtjR": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n.name {\n  font-family: \"Avenir Next\";\n  font-size: 12px;\n  font-style: normal;\n  font-weight: 400;\n  line-height: 16px;\n  letter-spacing: 2px;\n  text-transform: uppercase;\n  color: #d8315b;\n}\n<\/style>\n<p class=\"name\">-EMILY<\/p>"
+            "liquid": "<style>\n.name {\n  font-family: \"Avenir Next\";\n  font-size: 12px;\n  font-style: normal;\n  font-weight: 400;\n  line-height: 16px;\n  letter-spacing: 2px;\n  text-transform: uppercase;\n  color: #d8315b;\n}\n<\/style>\n<p class=\"name\">-FOUNDER<\/p>"
           }
         }
       },
@@ -387,14 +387,14 @@
         "heading_czBbpa": {
           "type": "heading",
           "settings": {
-            "text": "<em>The Journey<\/em>: AVARA.",
+            "text": "<em>The Journey<\/em>.",
             "heading_tag": "h1"
           }
         },
         "richtext_akWcFy": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Since its humble beginnings in Emily's home, Avara has grown exponentially, with \"Avaraistas\" in every state. In 2022 and 2023, Avara was named to the Inc 5000 fastest growing privately held companies in the country. <\/p>"
+            "content": ""
           }
         }
       },
@@ -410,8 +410,8 @@
         "remove_vertical_spacing": false
       }
     },
-    "avara_timeline_K7NFQR": {
-      "type": "avara-timeline",
+    "special_timeline_K7NFQR": {
+      "type": "timeline-special",
       "blocks": {
         "image_with_text_g3DPAw": {
           "type": "image_with_text",
@@ -421,7 +421,7 @@
             "image-position": "right",
             "subheading": "our beginning",
             "title": "November 2017",
-            "content": "<p>Emily walks away from a 20 year career in Corporate Finance. With no prior experience, she googles \"how to start an online boutique\" at her kitchen table.<\/p>",
+            "content": "<p>Founder walks away from a 20 year career in Corporate Finance. With no prior experience, she googles \"how to start an online boutique\" at her kitchen table.<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -434,7 +434,7 @@
             "image-position": "left",
             "subheading": "our beginning",
             "title": "March 2018",
-            "content": "<p>Emily launches Avara and starts selling pieces in a local Facebook group - her porch was the hot pick-up spot!<\/p>",
+            "content": "",
             "link_url": "",
             "link_text": ""
           }
@@ -447,7 +447,7 @@
             "image-position": "right",
             "subheading": "Expansion",
             "title": "August 2019",
-            "content": "<p>SHOPAVARA.COM is launched, enabling Avara to start selling outside of Dallas.<\/p>",
+            "content": "",
             "link_url": "",
             "link_text": ""
           }
@@ -460,7 +460,7 @@
             "image-position": "left",
             "subheading": "Loungewear",
             "title": "March 2020",
-            "content": "<p>COVID hits. Avara pivots to selling loungewear and business BOOMS!<\/p>",
+            "content": "",
             "link_url": "",
             "link_text": ""
           }
@@ -473,7 +473,7 @@
             "image-position": "right",
             "subheading": "open for business",
             "title": "July 2020",
-            "content": "<p>In the middle of a pandemic, Avara opens its first brick and mortar store in Dallas.<\/p>",
+            "content": "",
             "link_url": "",
             "link_text": ""
           }
@@ -484,7 +484,7 @@
             "column-color": "#fceff3",
             "image": "shopify:\/\/shop_images\/Image-17.png",
             "image-position": "left",
-            "subheading": "Avara Exclusive",
+            "subheading": "Exclusive",
             "title": "February 2021",
             "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_url": "",
@@ -499,7 +499,7 @@
             "image-position": "right",
             "subheading": "growth",
             "title": "August 2022",
-            "content": "<p>Avara is named to the Inc.5000 list of fastest growing companies in the country- #406 on the list and #3 in women's retail.<\/p>",
+            "content": "",
             "link_url": "",
             "link_text": ""
           }
@@ -512,7 +512,7 @@
             "image-position": "left",
             "subheading": "growth",
             "title": "August 2023",
-            "content": "<p>Avara is named to the Inc.5000 list of fastest growing companies in the country- #406 on the list and #3 in women's retail.<\/p>",
+            "content": "",
             "link_url": "",
             "link_text": ""
           }
@@ -525,7 +525,7 @@
             "image-position": "right",
             "subheading": "Today Show",
             "title": "December 2023",
-            "content": "<p>Avara is featured on the Today Show in Hoda and Jenna’s Best Dressed Guest segment.<\/p>",
+            "content": "",
             "link_url": "",
             "link_text": ""
           }
@@ -566,7 +566,7 @@
         "testimonial_tiV8my": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>ACHIEVE: To be the best each and every day in order to differentiate Avara from our competitors and support a culture of high performance, all while building an unrivaled customer experience and making things right, every time.<\/p>",
+            "content": "",
             "content_link": "",
             "image": "shopify:\/\/shop_images\/Achieve-2.svg",
             "logo_max_width": 140,
@@ -599,7 +599,7 @@
         "testimonial_QNHezy": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>POSITIVITY: Lead and participate in building and supporting an uplifting and fun culture across the brand and throughout the Avaraista community.<\/p>",
+            "content": "",
             "content_link": "",
             "image": "shopify:\/\/shop_images\/Positivity-2.svg",
             "logo_max_width": 140,
@@ -633,7 +633,7 @@
           "settings": {
             "collection": "girls-trip",
             "products_count": 8,
-            "title": "<em>Emily's<\/em> PICKS",
+            "title": "<em>Founder's<\/em> PICKS",
             "link_url": "",
             "link_text": "View all"
           }
@@ -666,7 +666,7 @@
     "rich_text_KpxgEK",
     "custom_liquid_YeYpy4",
     "rich_text_HG8zdP",
-    "avara_timeline_K7NFQR",
+    "special_timeline_K7NFQR",
     "testimonials_7TErpB",
     "featured_collections_iVPeKC"
   ]

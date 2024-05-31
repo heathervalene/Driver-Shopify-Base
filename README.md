@@ -111,9 +111,16 @@ When a build is run for the theme, all files in `fronted` are compiled into file
 Naming convention for sections should use the Prestige theme prefix schema:
 `[main, header, footer, product, collection, blog, cart]` - `section or snippet name`
 
+- When duplicating a page section or snippet because the work calls for making a new instance, use the original name with a qualifier appended whenever possible, to keep similar sections together in the file list.  For instance, a duplication of `timeline.liquid` should be named `timeline-special.liquid`
+
+- When creating metafields or metaobjects, always use the namespace `driver` and a short, descriptive key - e.g. `product.metafields.driver.filter_color`.  All metafields/objects should have a description in Shopify that clearly explains their purpose and use, e.g. "Color filter for collections"
+
 - `snippets/css-variables.liquid` controls typography classes sitewide. This should be modified with caution. These classes or Tailwind classes should be used where appropriate, rather than creating one-off regular CSS classes.
+
 - `snippets/button.liquid` controls button and link classes sitewide.
+
 - unique JSON templates should be created for new pages, unless those pages use the default page template with no modifications
+
 - Take care when modifying existing sections and snippets that new modifications do not affect existing uses of those sections/snippets. It's perfectly acceptable to duplicate an existing section/snippet to create a new one.
 
 ## Frameworks

@@ -1,9 +1,9 @@
 {
   "sections": {
-    "collection-banner-avara": {
-      "type": "collection-banner-avara",
+    "collection-banner-special": {
+      "type": "collection-banner-special",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Avara_PLP_fallback.jpg",
+        "image": "",
         "background": "#f7f4f2",
         "text_color": "#052c4c",
         "show_image_mobile": true
@@ -49,7 +49,7 @@
     }
   },
   "order": [
-    "collection-banner-avara",
+    "collection-banner-special",
     "main",
     "collection_seo_text_Frgdx6"
   ]

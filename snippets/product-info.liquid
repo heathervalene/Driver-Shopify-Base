@@ -49,10 +49,10 @@ Supported variables
       endif
     -%}
     
-    {%- comment -%} Avara Exclusive badge {%- endcomment -%}
-    {%- if product.tags contains 'avara exclusive' or product.metafields.driver.filter_avara_exclusives == true  -%}
-      <div class="product-info__block-item" data-block-type="avara-exclusive">
-        {%- render 'badge-avara-exclusive', product: product -%}
+    {%- comment -%} Exclusive badge {%- endcomment -%}
+    {%- if product.tags contains 'exclusive' or product.metafields.driver.filter_exclusives == true  -%}
+      <div class="product-info__block-item" data-block-type="exclusive">
+        {%- render 'badge-exclusive', product: product -%}
       </div>
     {%- endif -%}
 

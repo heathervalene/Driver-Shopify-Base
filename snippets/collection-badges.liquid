@@ -41,7 +41,7 @@ Supported variables
           endunless
         -%}
 
-        {%- if product.tags contains 'avara exclusive' or product.metafields.driver.filter_avara_exclusives == true -%}
+        {%- if product.tags contains 'exclusive' or product.metafields.driver.filter_exclusives == true -%}
           {%- assign is_badge_list_hidden = false -%}
           {{- settings.special_badge | image_url: width: settings.special_badge.width | image_tag: sizes: sizes, widths: widths, class: 'w-12 lg:w-16' -}}
         

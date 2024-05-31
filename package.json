@@ -23,7 +23,7 @@
     "vite-plugin-shopify": "^2.2.1"
   },
   "config": {
-    "store": "avara-boutique.myshopify.com"
+    "store": "driver-development-2.myshopify.com"
   },
   "dependencies": {
     "@splidejs/splide": "^4.1.4",

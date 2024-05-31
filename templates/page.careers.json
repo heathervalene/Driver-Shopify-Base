@@ -22,7 +22,7 @@
         "richtext_XAh8fb": {
           "type": "richtext",
           "settings": {
-            "content": "<h3>Want to join team Avara? We’re always looking for talented individuals to join our professional community. View current job opportunities <a href=\"https:\/\/www.linkedin.com\/company\/shopavara\" target=\"_blank\" title=\"https:\/\/www.linkedin.com\/company\/shopavara\">HERE<\/a><\/h3>"
+            "content": "<h3>Want to join team? We’re always looking for talented individuals to join our professional community.<\/h3>"
           }
         }
       },
@@ -54,8 +54,8 @@
       "settings": {
         "color_scheme": "",
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/79910c6dcd0ed164c94c7a783b4b3aba.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/Avara_house-970.jpg",
+        "image": "",
+        "mobile_image": "",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
@@ -85,7 +85,7 @@
         "richtext_MybYYK": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Avara is a women’s clothing and accessories brand known for its curated collections of fun, accessible, and easy-to-wear pieces.  Avara was just named #1 in E-commerce on the Inc. 5000 list of FASTEST GROWING privately held companies in the country! The list represents a one-of-a-kind look at the most successful independent businesses.<\/p>"
+            "content": "<p>A women’s clothing and accessories brand known for its curated collections of fun, accessible, and easy-to-wear pieces.  Just named #1 in E-commerce on the Inc. 5000 list of FASTEST GROWING privately held companies in the country! The list represents a one-of-a-kind look at the most successful independent businesses.<\/p>"
           }
         }
       },
@@ -120,7 +120,7 @@
             "image": "shopify:\/\/shop_images\/f584aec4e8f8ea6ddd203afbae20ba1f.jpg",
             "subheading": "Employee spotlight",
             "title": "<em>Katie<\/em> KUBISAK",
-            "content": "<p>“It’s great to be an essential part of a hard-working and fun team who is passionate about seeing Avara grow.”<\/p>",
+            "content": "<p>“It’s great to be an essential part of a hard-working and fun team who is passionate.”<\/p>",
             "link_text": "",
             "link_url": "",
             "link_style": "solid"
@@ -174,8 +174,8 @@
           "settings": {
             "column-color": "",
             "image": "shopify:\/\/shop_images\/Careers_Vision.svg",
-            "title": "<h1><em>Avara <\/em><br\/>VISION<\/h1>",
-            "content": "<p>Avara will be the go-to brand for compliment-worthy clothing that allows women to celebrate all of life's moments with confidence and joy.<\/p>",
+            "title": "<h1><em>Our <\/em><br\/>VISION<\/h1>",
+            "content": "<p>We will be the go-to brand for compliment-worthy clothing that allows women to celebrate all of life's moments with confidence and joy.<\/p>",
             "link_url": "",
             "link_text": ""
           }
@@ -212,7 +212,7 @@
         "testimonial_BHFyp8": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>ACHIEVE: To be the best each and every day in order to differentiate Avara from our competitors and support a culture of high performance, all while building an unrivaled customer experience and making things right, every time.<\/p>",
+            "content": "<p>ACHIEVE: To be the best each and every day in order to differentiate us from our competitors and support a culture of high performance, all while building an unrivaled customer experience and making things right, every time.<\/p>",
             "content_link": "",
             "image": "shopify:\/\/shop_images\/Achieve-2.svg",
             "logo_max_width": 50,
@@ -245,7 +245,7 @@
         "testimonial_D9Af7A": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>POSITIVITY: Lead and participate in building and supporting an uplifting and fun culture across the brand and throughout the Avaraista community.<\/p>",
+            "content": "<p>POSITIVITY: Lead and participate in building and supporting an uplifting and fun culture across the brand and throughout the community.<\/p>",
             "content_link": "",
             "image": "shopify:\/\/shop_images\/Positivity-2.svg",
             "logo_max_width": 60,
