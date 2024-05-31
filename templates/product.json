@@ -20,20 +20,8 @@
           "settings": {
           }
         },
-        "yotpo_product_reviews_ugc_star_rating_rcqq84": {
-          "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
         "separator": {
           "type": "separator",
-          "settings": {
-          }
-        },
-        "true_fit_widget_GWH3cq": {
-          "type": "shopify:\/\/apps\/true-fit\/blocks\/widget\/caa08c3b-c601-47cd-9c2a-32bb0567b191",
-          "disabled": true,
           "settings": {
           }
         },
@@ -52,7 +40,6 @@
           "settings": {
             "option_name": "Color",
             "option_value_metafield": "",
-            "products": "{{ product.metafields.driver.product_variations.value }}",
             "selector_style": "swatch"
           }
         },
@@ -100,7 +87,7 @@
             "show_below_gallery": false,
             "icon": "none",
             "title": "Size & Fit",
-            "content": "{{ product.metafields.driver.size_fit | metafield_tag }}",
+            "content": "",
             "liquid": "",
             "page": ""
           }
@@ -111,7 +98,7 @@
             "show_below_gallery": false,
             "icon": "none",
             "title": "Material & Care",
-            "content": "{{ product.metafields.driver.material_care | metafield_tag }}",
+            "content": "",
             "liquid": "",
             "page": ""
           }
@@ -141,9 +128,7 @@
         "title",
         "price",
         "payment_terms",
-        "yotpo_product_reviews_ugc_star_rating_rcqq84",
         "separator",
-        "true_fit_widget_GWH3cq",
         "variant_picker",
         "product_variations_EhDQRD",
         "inventory_ezn3UY",
@@ -206,36 +191,12 @@
       "type": "editorial-banner",
       "settings": {
       }
-    },
-    "17135386813138228c": {
-      "type": "apps",
-      "blocks": {
-        "yotpo_product_reviews_ugc_reviews_ENfqRP": {
-          "type": "shopify:\/\/apps\/yotpo-product-reviews-ugc\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-          "settings": {
-            "product": "{{product}}"
-          }
-        }
-      },
-      "block_order": [
-        "yotpo_product_reviews_ugc_reviews_ENfqRP"
-      ],
-      "custom_css": [
-        ".section-spacing {padding-block-start: 0;}"
-      ],
-      "settings": {
-        "color_scheme": "scheme-2",
-        "separate_section_with_border": false,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false
-      }
     }
   },
   "order": [
     "main",
     "complementary_products_UNjTVD",
     "related-products",
-    "editorial_banner_MPfnaH",
-    "17135386813138228c"
+    "editorial_banner_MPfnaH"
   ]
 }

@@ -43,8 +43,8 @@
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false,
-        "heading": "{{ collection.metafields.driver.collection_seo_headline.value }}",
-        "content": "{{ collection.metafields.custom.custom_description.value }}"
+        "heading": "",
+        "content": ""
       }
     }
   },
